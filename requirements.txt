@@ -1,0 +1,12 @@
+# AmazoLab experiment — no third-party Python packages.
+# The server (backend/server.py) uses only the standard library.
+#
+# Python 3.9+ recommended (typing.Optional and http.server).
+#
+# Setup:
+#   pip install -r requirements.txt
+#
+# Run the local server (from repo root or any cwd):
+#   python backend/server.py
+#
+# Then open http://127.0.0.1:8000/index.html in your browser.
