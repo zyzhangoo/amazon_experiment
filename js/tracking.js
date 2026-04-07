@@ -7,25 +7,37 @@
 
 (function () {
   const LOGS_KEY = "logs";
-  const PID_KEY = "prolific_pid";
-  const SESSION_KEY = "experiment_session_id";
+  // Persist identity across page navigation (sessionStorage is per-tab).
+  // Keep legacy keys for backward compatibility with older sessions.
+  const LEGACY_PID_KEY = "prolific_pid";
+  const LEGACY_SESSION_KEY = "experiment_session_id";
+  const USER_ID_KEY = "userId";
+  const SESSION_ID_KEY = "sessionId";
 
   function initExperimentContext() {
     const ctx = (window.EXPERIMENT_CONTEXT &&
       typeof window.EXPERIMENT_CONTEXT === "object" &&
       window.EXPERIMENT_CONTEXT) || { };
 
-    // userId: prefer URL (?pid=...), else sessionStorage, else existing, else anonymous
+    // userId: if URL has ?pid=, store it; otherwise read from sessionStorage.
     let userId = "anonymous";
     try {
       const urlParams = new URLSearchParams(window.location.search);
-      const fromUrl = urlParams.get("pid");
-      const fromStorage =
-        (window.sessionStorage && window.sessionStorage.getItem(PID_KEY)) || null;
-      userId = String(fromUrl || fromStorage || ctx.userId || "anonymous");
-      if (fromUrl && window.sessionStorage) {
-        window.sessionStorage.setItem(PID_KEY, String(fromUrl));
+      const pidFromUrl = urlParams.get("pid");
+
+      if (pidFromUrl && window.sessionStorage) {
+        window.sessionStorage.setItem(USER_ID_KEY, String(pidFromUrl));
+        // Legacy key (do not remove)
+        window.sessionStorage.setItem(LEGACY_PID_KEY, String(pidFromUrl));
       }
+
+      const fromStorage =
+        (window.sessionStorage &&
+          (window.sessionStorage.getItem(USER_ID_KEY) ||
+            window.sessionStorage.getItem(LEGACY_PID_KEY))) ||
+        null;
+
+      userId = String(fromStorage || ctx.userId || "anonymous");
     } catch {
       userId = String(ctx.userId || "anonymous");
     }
@@ -34,16 +46,23 @@
     let sessionId = null;
     try {
       const existing =
-        (window.sessionStorage && window.sessionStorage.getItem(SESSION_KEY)) || null;
+        (window.sessionStorage &&
+          (window.sessionStorage.getItem(SESSION_ID_KEY) ||
+            window.sessionStorage.getItem(LEGACY_SESSION_KEY))) ||
+        null;
       sessionId =
         existing ||
         `${Date.now()}_${Math.random().toString(16).slice(2)}`;
       if (window.sessionStorage && !existing) {
-        window.sessionStorage.setItem(SESSION_KEY, sessionId);
+        window.sessionStorage.setItem(SESSION_ID_KEY, sessionId);
+        // Legacy key (do not remove)
+        window.sessionStorage.setItem(LEGACY_SESSION_KEY, sessionId);
       }
     } catch {
       sessionId = ctx.sessionId || `${Date.now()}_${Math.random().toString(16).slice(2)}`;
     }
+
+    console.log("Tracking userId:", userId);
 
     window.EXPERIMENT_CONTEXT = {
       ...ctx,
