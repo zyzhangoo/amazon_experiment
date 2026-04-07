@@ -1,7 +1,6 @@
-# AmazoLab experiment — no third-party Python packages.
-# The server (backend/server.py) uses only the standard library.
+# AmazoLab experiment backend dependencies.
 #
-# Python 3.9+ recommended (typing.Optional and http.server).
+# Python 3.9+ recommended.
 #
 # Setup:
 #   pip install -r requirements.txt
@@ -10,3 +9,5 @@
 #   python backend/server.py
 #
 # Then open http://127.0.0.1:8000/index.html in your browser.
+
+supabase

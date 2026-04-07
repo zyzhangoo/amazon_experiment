@@ -5,17 +5,42 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Optional
 from urllib.parse import unquote, urlparse
 
+try:
+    # Official Supabase Python client.
+    from supabase import create_client, Client  # type: ignore
+except Exception:  # pragma: no cover
+    create_client = None
+    Client = None
+
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 BACKEND_DIR = os.path.abspath(os.path.dirname(__file__))
-LOGS_PATH = os.path.join(BACKEND_DIR, "logs.jsonl")
+
+_SUPABASE: Optional["Client"] = None
 
 
-def _append_log_line(event_obj):
-    os.makedirs(BACKEND_DIR, exist_ok=True)
-    line = json.dumps(event_obj, ensure_ascii=False)
-    with open(LOGS_PATH, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
+def _get_supabase() -> Optional["Client"]:
+    global _SUPABASE
+    if _SUPABASE is not None:
+        return _SUPABASE
+
+    url = os.environ.get("SUPABASE_URL", "").strip()
+    key = os.environ.get("SUPABASE_KEY", "").strip()
+    if not url or not key:
+        _SUPABASE = None
+        return None
+
+    if create_client is None:
+        print("Supabase client not available. Install 'supabase' and retry.")
+        _SUPABASE = None
+        return None
+
+    try:
+        _SUPABASE = create_client(url, key)
+    except Exception as e:
+        print(f"Supabase init failed: {e}")
+        _SUPABASE = None
+    return _SUPABASE
 
 
 def _normalize_timestamp_iso(event: dict) -> Optional[str]:
@@ -115,11 +140,25 @@ class Handler(BaseHTTPRequestHandler):
             "ip": _get_client_ip(self),
         }
 
+        # Store in Supabase (best-effort; frontend always gets success).
         try:
-            _append_log_line(event_obj)
-        except Exception:
-            # Still respond 200 to avoid breaking user flows.
-            pass
+            sb = _get_supabase()
+            if sb is None:
+                raise RuntimeError("Supabase not configured (missing SUPABASE_URL/SUPABASE_KEY).")
+
+            sb.table("events").insert(
+                {
+                    "user_id": event_obj["userId"],
+                    "session_id": event_obj.get("sessionId") or "",
+                    "event_type": event_obj["eventType"],
+                    "data": event_obj.get("data") or {},
+                    "timestamp": event_obj["timestamp"],
+                    "page": event_obj.get("page") or "",
+                    "ip": event_obj.get("ip") or "",
+                }
+            ).execute()
+        except Exception as e:
+            print(f"Supabase insert failed: {e}")
 
         self.send_response(200)
         self._set_cors_headers()
@@ -131,21 +170,41 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         path = unquote(parsed.path)
         if path == "/export-logs":
-            # Download newline-delimited JSON (JSONL)
+            # Optional: export recent events as NDJSON from Supabase.
             self.send_response(200)
             self._set_cors_headers()
             self.send_header("Content-Type", "application/x-ndjson; charset=utf-8")
             self.send_header("Content-Disposition", 'attachment; filename="logs.jsonl"')
             self.end_headers()
             try:
-                if os.path.exists(LOGS_PATH):
-                    with open(LOGS_PATH, "rb") as f:
-                        self.wfile.write(f.read())
-                else:
+                sb = _get_supabase()
+                if sb is None:
                     self.wfile.write(b"")
-            except Exception:
-                # If something goes wrong, still return a valid response.
-                pass
+                    return
+                res = (
+                    sb.table("events")
+                    .select("user_id,session_id,event_type,data,timestamp,page,ip")
+                    .order("id", desc=False)
+                    .limit(5000)
+                    .execute()
+                )
+                rows = getattr(res, "data", None) or []
+                for r in rows:
+                    line = json.dumps(
+                        {
+                            "userId": r.get("user_id", "anonymous"),
+                            "sessionId": r.get("session_id", ""),
+                            "eventType": r.get("event_type", ""),
+                            "data": r.get("data") if isinstance(r.get("data"), dict) else {},
+                            "timestamp": r.get("timestamp"),
+                            "page": r.get("page") or "",
+                            "ip": r.get("ip") or "",
+                        },
+                        ensure_ascii=False,
+                    )
+                    self.wfile.write((line + "\n").encode("utf-8"))
+            except Exception as e:
+                print(f"Supabase export failed: {e}")
             return
 
         if path == "/":
@@ -191,7 +250,10 @@ def main():
 
     httpd = HTTPServer((host, port), Handler)
     print(f"AmazoLab Experiment server running at http://{host}:{port}/")
-    print(f"Logging to: {LOGS_PATH}")
+    if os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_KEY"):
+        print("Logging to: Supabase table events")
+    else:
+        print("Logging to: (disabled) set SUPABASE_URL + SUPABASE_KEY")
     httpd.serve_forever()
 
 
