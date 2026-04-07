@@ -187,7 +187,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     port = int(os.environ.get("PORT", "8000"))
-    host = os.environ.get("HOST", "127.0.0.1")
+    host = "0.0.0.0"
 
     httpd = HTTPServer((host, port), Handler)
     print(f"AmazoLab Experiment server running at http://{host}:{port}/")
