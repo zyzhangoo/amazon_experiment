@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AmazoLab Experiment - Cart</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="nav-logo" href="index.html">AmazoLab</a>
+
+      <form id="searchForm" class="nav-search" role="search">
+        <input
+          id="searchInput"
+          type="search"
+          name="q"
+          placeholder="Search USB flash drives, hard drives, power banks..."
+          autocomplete="off"
+        />
+        <button id="searchBtn" type="submit" class="nav-search-btn">Search</button>
+      </form>
+
+      <div class="nav-sort nav-sort--ghost">
+        <span class="nav-cart-badge">Cart</span>
+      </div>
+    </header>
+
+    <main class="container cart-page">
+      <h1 class="page-title">Your Cart</h1>
+      <div class="cart-summary-row">
+        <div id="cartSummary" class="cart-summary"></div>
+      </div>
+
+      <div id="cartItems" class="cart-items"></div>
+
+      <div class="cart-footer">
+        <div class="cart-total">
+          Total: <span id="cartTotal" class="cart-total-value">$0.00</span>
+        </div>
+        <button id="checkoutBtn" class="primary-btn" type="button">Checkout</button>
+      </div>
+    </main>
+
+    <script src="js/tracking.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

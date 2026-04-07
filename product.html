@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AmazoLab Experiment - Product</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="nav-logo" href="index.html">AmazoLab</a>
+
+      <form id="searchForm" class="nav-search" role="search">
+        <input
+          id="searchInput"
+          type="search"
+          name="q"
+          placeholder="Search USB flash drives, hard drives, power banks..."
+          autocomplete="off"
+        />
+        <button id="searchBtn" type="submit" class="nav-search-btn">Search</button>
+      </form>
+
+      <div class="nav-sort nav-sort--ghost">
+        <span class="nav-cart-hint">
+          <a href="cart.html" class="nav-cart-link">Go to cart</a>
+        </span>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="product-page">
+        <section class="product-media">
+          <img id="productImage" src="" alt="" loading="lazy" />
+        </section>
+
+        <section class="product-detail">
+          <h1 id="productName" class="product-title"></h1>
+          <div class="product-category" id="productCategory"></div>
+
+          <div class="product-rating-block">
+            <div class="product-rating-row" id="productRating"></div>
+            <div id="ratingBreakdown" class="rating-breakdown" hidden></div>
+          </div>
+
+          <div id="productFeaturesBlock" class="product-info-block" hidden>
+            <h2 class="product-subheading">Features</h2>
+            <div id="productFeaturesList" class="product-features-list" aria-label="Product features"></div>
+            <button type="button" id="featuresToggleBtn" class="product-see-more-btn" hidden>
+              See more
+            </button>
+          </div>
+
+          <div id="productDescriptionBlock" class="product-info-block" hidden>
+            <h2 class="product-subheading">Description</h2>
+            <div id="productDescriptionText" class="product-description-text product-description-text--clamped"></div>
+            <button type="button" id="descriptionToggleBtn" class="product-see-more-btn" hidden>
+              See more
+            </button>
+          </div>
+
+          <div class="product-badges" id="productBadges"></div>
+
+          <div class="product-price" id="productPrice"></div>
+
+          <button id="addToCartBtn" class="primary-btn" type="button">Add to Cart</button>
+          <div id="addToCartStatus" class="add-to-cart-status" aria-live="polite"></div>
+
+          <div class="product-actions">
+            <a href="cart.html" class="secondary-btn">View Cart</a>
+          </div>
+        </section>
+      </div>
+
+      <section class="reviews" aria-live="polite">
+        <h2 class="reviews-title">Customer reviews</h2>
+        <div id="reviewsContainer" class="reviews-list"></div>
+        <button id="expandReviewsBtn" class="secondary-btn reviews-expand-btn" type="button" style="display:none;">
+          Click for more
+        </button>
+      </section>
+    </main>
+
+    <script src="js/tracking.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/product.js"></script>
+  </body>
+</html>

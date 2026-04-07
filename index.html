@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AmazoLab Experiment - Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="nav-logo" href="index.html">AmazoLab</a>
+
+      <form id="searchForm" class="nav-search" role="search">
+        <input
+          id="searchInput"
+          type="search"
+          name="q"
+          placeholder="Search USB flash drives, hard drives, power banks..."
+          autocomplete="off"
+        />
+        <button id="searchBtn" type="submit" class="nav-search-btn">Search</button>
+      </form>
+
+      <div class="nav-actions">
+        <div class="nav-sort">
+          <label for="sortSelect" class="nav-sort-label">Sort</label>
+          <select id="sortSelect">
+            <option value="popularity_desc" selected>Best sellers</option>
+            <option value="price_asc">Price: Low to High</option>
+            <option value="rating_desc">Rating</option>
+          </select>
+        </div>
+        <a href="cart.html" class="nav-go-cart-btn" id="navGoToCartBtn">Go to Cart</a>
+      </div>
+    </header>
+
+    <main class="container container--listing">
+      <div class="search-summary">
+        <span id="resultsCount" class="results-count"></span>
+      </div>
+
+      <div class="listing-layout">
+        <aside class="category-sidebar" aria-label="Filters">
+          <div class="sidebar-section">
+            <h2 class="sidebar-heading">Department</h2>
+            <ul class="category-list" id="categoryFilterList">
+              <li>
+                <button type="button" class="category-filter-btn is-active" data-category-slug="" data-category-label="All">
+                  All
+                </button>
+              </li>
+              <li>
+                <button type="button" class="category-filter-btn" data-category-slug="usb" data-category-label="USB Flash Drive">
+                  USB Flash Drive
+                </button>
+              </li>
+              <li>
+                <button type="button" class="category-filter-btn" data-category-slug="hdd" data-category-label="Hard Drive">
+                  Hard Drive
+                </button>
+              </li>
+              <li>
+                <button type="button" class="category-filter-btn" data-category-slug="power" data-category-label="Power Bank">
+                  Power Bank
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Eligible for Free Shipping</h3>
+            <label class="filter-option filter-option--check">
+              <input type="checkbox" id="filterFreeShipping" name="filterFreeShipping" />
+              <span>Free Shipping by Amazon</span>
+            </label>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Delivery Day</h3>
+            <label class="filter-option filter-option--check">
+              <input type="checkbox" id="filterFastDelivery" name="filterFastDelivery" />
+              <span>Get It by Tomorrow</span>
+            </label>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Customer Rating</h3>
+            <fieldset class="filter-fieldset">
+              <legend class="visually-hidden">Filter by customer rating</legend>
+              <label class="filter-option">
+                <input type="radio" name="filterRating" value="" checked />
+                <span>Any rating</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterRating" value="3" />
+                <span>3 stars &amp; up</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterRating" value="4" />
+                <span>4 stars &amp; up</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterRating" value="4.5" />
+                <span>4.5 stars &amp; up</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Price</h3>
+            <fieldset class="filter-fieldset">
+              <legend class="visually-hidden">Filter by price</legend>
+              <label class="filter-option">
+                <input type="radio" name="filterPrice" value="" checked />
+                <span>Any price</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterPrice" value="under25" />
+                <span>Under $25</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterPrice" value="25_50" />
+                <span>$25 – $50</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterPrice" value="50_100" />
+                <span>$50 – $100</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filterPrice" value="over100" />
+                <span>Over $100</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Brand</h3>
+            <div id="brandFilterList" class="brand-filter-list" aria-label="Filter by brand"></div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-subheading">Ad</h3>
+            <div id="sidebarBannerAd" class="sidebar-banner-ad" aria-label="Ad"></div>
+          </div>
+        </aside>
+
+        <div class="listing-main">
+          <div id="productGrid" class="product-list" aria-live="polite"></div>
+          <nav id="paginationNav" class="pagination-nav" aria-label="Product list pages" hidden></nav>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/tracking.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
