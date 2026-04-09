@@ -161,8 +161,8 @@ img {
   color: #065f46;
 }
 
-.badge-best-seller,
-.badge-amazon-choice {
+.badge.badge-best-seller,
+.badge.badge-amazon-choice {
   border: none;
   border-radius: 6px;
   padding: 4px 8px;
@@ -170,12 +170,12 @@ img {
   letter-spacing: 0.1px;
 }
 
-.badge-best-seller {
+.badge.badge-best-seller {
   background: #cc0c39; /* Amazon-ish red */
   color: #ffffff;
 }
 
-.badge-amazon-choice {
+.badge.badge-amazon-choice {
   background: #111111;
   color: #ffffff;
 }
