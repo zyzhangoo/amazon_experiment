@@ -161,6 +161,36 @@ img {
   color: #065f46;
 }
 
+.badge-best-seller,
+.badge-amazon-choice {
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+}
+
+.badge-best-seller {
+  background: #cc0c39; /* Amazon-ish red */
+  color: #ffffff;
+}
+
+.badge-amazon-choice {
+  background: #111111;
+  color: #ffffff;
+}
+
+.rating-count-link {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.rating-count-link:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

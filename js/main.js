@@ -362,7 +362,20 @@
         const badges = Array.isArray(p.badges) ? p.badges : [];
         const badgeHtml =
           badges.length > 0
-            ? badges.slice(0, 4).map((b) => `<span class="badge">${window.escapeHtml(b)}</span>`).join("")
+            ? badges
+                .slice(0, 4)
+                .map((b) => {
+                  const raw = String(b || "");
+                  const norm = raw.toLowerCase().replace(/[^a-z]/g, "");
+                  const extraClass =
+                    norm === "bestseller"
+                      ? " badge-best-seller"
+                      : norm === "amazonschoice"
+                        ? " badge-amazon-choice"
+                        : "";
+                  return `<span class="badge${extraClass}">${window.escapeHtml(raw)}</span>`;
+                })
+                .join("")
             : "";
         const carbonBadge = p.carbonFriendly
           ? '<span class="badge badge--carbon" title="Lower carbon footprint">🌱 Low Carbon</span>'
@@ -381,8 +394,12 @@
         const ratingsPhrase =
           reviewTotal > 0
             ? window.formatRatingCount
-              ? ` (${window.formatRatingCount(reviewTotal)})`
-              : ` (${reviewTotal} ratings)`
+              ? `${window.formatRatingCount(reviewTotal)}`
+              : `${reviewTotal} ratings`
+            : "";
+        const ratingCountHtml =
+          reviewTotal > 0
+            ? `<a class="rating-count-link" href="product.html?id=${encodeURIComponent(p.id)}" data-rating-count-link="1" data-product-id="${window.escapeHtml(p.id)}" aria-label="View ${window.escapeHtml(p.name)} ratings">${window.escapeHtml(ratingsPhrase)}</a>`
             : "";
 
         return `
@@ -395,7 +412,7 @@
               <div class="product-row__rating-line">
                 ${ratingStars}
                 <span class="product-row__rating-num">${ratingNum}</span>
-                <span class="product-row__rating-count">${ratingsPhrase}</span>
+                <span class="product-row__rating-count">${ratingCountHtml}</span>
               </div>
               <div class="product-row__badges">${badgeHtml}${carbonBadge}</div>
               <div class="product-row__price">${priceText}</div>
@@ -412,6 +429,17 @@
       .join("");
 
     els.productGrid.innerHTML = cards;
+
+    els.productGrid.querySelectorAll('a[data-rating-count-link="1"]').forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const id = a.getAttribute("data-product-id");
+        if (!id) return;
+        window.trackEvent("click_rating_count", { productId: String(id) });
+        window.location.href = a.getAttribute("href") || `product.html?id=${encodeURIComponent(id)}`;
+      });
+    });
 
     els.productGrid.querySelectorAll(".product-row__media, .product-row__title").forEach((a) => {
       a.addEventListener("click", () => {
@@ -511,6 +539,41 @@
     });
   }
 
+  function attachScrollDepthTracking() {
+    let maxDepth = 0;
+    let ticking = false;
+
+    function computeDepth() {
+      const doc = document.documentElement;
+      const scrollTop = window.scrollY || doc.scrollTop || 0;
+      const docHeight = Math.max(doc.scrollHeight || 0, doc.offsetHeight || 0);
+      const winHeight = window.innerHeight || doc.clientHeight || 0;
+      const denom = Math.max(1, docHeight - winHeight);
+      const pct = Math.round((scrollTop / denom) * 100);
+      const bucket = Math.max(0, Math.min(100, Math.floor(pct / 10) * 10));
+      if (bucket > maxDepth) {
+        maxDepth = bucket;
+        window.trackEvent("scroll_depth", { depth: maxDepth, pageType: "listing" });
+      }
+    }
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          ticking = false;
+          computeDepth();
+        });
+      },
+      { passive: true }
+    );
+
+    // initial
+    computeDepth();
+  }
+
   function render() {
     const filtered = products.filter((p) => matchesAllFilters(p));
     const sorted = applySort(filtered, getSortOption());
@@ -535,6 +598,7 @@
     if (!els.searchForm || !els.productGrid) return;
 
     attachPaginationHandlersOnce();
+    attachScrollDepthTracking();
 
     els.productGrid.textContent = "Loading products...";
 

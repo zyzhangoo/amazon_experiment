@@ -18,6 +18,11 @@
     productDescriptionText: document.getElementById("productDescriptionText"),
     descriptionToggleBtn: document.getElementById("descriptionToggleBtn"),
 
+    customersSaySection: document.getElementById("customersSaySection"),
+    customersSayText: document.getElementById("customersSayText"),
+    reviewKeywordsSection: document.getElementById("reviewKeywordsSection"),
+    reviewKeywordsList: document.getElementById("reviewKeywordsList"),
+
     reviewsContainer: document.getElementById("reviewsContainer"),
     expandReviewsBtn: document.getElementById("expandReviewsBtn"),
 
@@ -30,6 +35,7 @@
   let reviewsExpanded = false;
   let featuresExpanded = false;
   let descriptionExpanded = false;
+  let activeReviewKeyword = null;
 
   function setText(el, text) {
     if (!el) return;
@@ -59,6 +65,77 @@
     // Backward compat (older dataset)
     if (Array.isArray(p.reviews)) return p.reviews;
     return [];
+  }
+
+  function getAiGeneratedSummary(p) {
+    // New dataset uses hyphenated keys.
+    const v = p ? (p["ai-generated-summary"] ?? p.aiGeneratedSummary) : null;
+    const s = typeof v === "string" ? v.trim() : "";
+    return s;
+  }
+
+  function getReviewKeywords(p) {
+    const raw = p ? (p["customer-review-keywords"] ?? p.customerReviewKeywords) : null;
+    const arr = Array.isArray(raw) ? raw : [];
+    const cleaned = arr
+      .map((x) => (x == null ? "" : String(x)).trim())
+      .filter(Boolean);
+    // de-dup (case-insensitive) while preserving order
+    const seen = new Set();
+    const out = [];
+    cleaned.forEach((k) => {
+      const norm = k.toLowerCase();
+      if (seen.has(norm)) return;
+      seen.add(norm);
+      out.push(k);
+    });
+    return out;
+  }
+
+  function renderCustomersSay(p) {
+    if (!els.customersSaySection || !els.customersSayText) return;
+    const summary = getAiGeneratedSummary(p);
+    if (!summary) {
+      els.customersSaySection.hidden = true;
+      els.customersSayText.textContent = "";
+      return;
+    }
+    els.customersSaySection.hidden = false;
+    els.customersSayText.textContent = summary;
+  }
+
+  function reviewTextMatchesKeyword(r, keyword) {
+    const kw = String(keyword || "").toLowerCase();
+    if (!kw) return false;
+    const body = r ? (r.review_body || r.comment || "") : "";
+    const headline = r ? (r.review_headline || "") : "";
+    const hay = `${headline} ${body}`.toLowerCase();
+    return hay.includes(kw);
+  }
+
+  function getFilteredReviewsForActiveKeyword(allReviews) {
+    const list = Array.isArray(allReviews) ? allReviews : [];
+    if (!activeReviewKeyword) return list;
+    const filtered = list.filter((r) => reviewTextMatchesKeyword(r, activeReviewKeyword));
+    // Fallback behavior: if nothing matches, show all reviews.
+    return filtered.length ? filtered : list;
+  }
+
+  function renderReviewKeywords(p) {
+    if (!els.reviewKeywordsSection || !els.reviewKeywordsList) return;
+    const keywords = getReviewKeywords(p);
+    if (!keywords.length) {
+      els.reviewKeywordsSection.hidden = true;
+      els.reviewKeywordsList.innerHTML = "";
+      return;
+    }
+    els.reviewKeywordsSection.hidden = false;
+    els.reviewKeywordsList.innerHTML = keywords
+      .map((k) => {
+        const isActive = activeReviewKeyword && k.toLowerCase() === String(activeReviewKeyword).toLowerCase();
+        return `<button type="button" class="review-keyword-tag${isActive ? " is-active" : ""}" data-review-keyword="${window.escapeHtml(k)}" aria-pressed="${isActive ? "true" : "false"}">${window.escapeHtml(k)}</button>`;
+      })
+      .join("");
   }
 
   function getFeatureEntries(p) {
@@ -152,7 +229,17 @@
     const arr = Array.isArray(product && product.badges) ? product.badges : [];
     let html = arr
       .slice(0, 6)
-      .map((b) => `<span class="badge">${window.escapeHtml(b)}</span>`)
+      .map((b) => {
+        const raw = String(b || "");
+        const norm = raw.toLowerCase().replace(/[^a-z]/g, "");
+        const extraClass =
+          norm === "bestseller"
+            ? " badge-best-seller"
+            : norm === "amazonschoice"
+              ? " badge-amazon-choice"
+              : "";
+        return `<span class="badge${extraClass}">${window.escapeHtml(raw)}</span>`;
+      })
       .join("");
     if (product && product.carbonFriendly) {
       html += `<span class="badge badge--carbon" title="Lower carbon footprint">🌱 Low Carbon</span>`;
@@ -325,6 +412,7 @@
     product = p;
     featuresExpanded = false;
     descriptionExpanded = false;
+    activeReviewKeyword = null;
 
     const imageUrl =
       resolveImageSrc(p.image) ||
@@ -348,9 +436,11 @@
 
     renderFeaturesBlock(p);
     renderDescriptionBlock(p);
+    renderCustomersSay(p);
+    renderReviewKeywords(p);
 
     renderBadges(p);
-    renderReviews(getTopReviews(p));
+    renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(p)));
   }
 
   async function init() {
@@ -393,6 +483,68 @@
     window.trackEvent("view_product", { productId: String(productId) });
     renderProduct(product);
 
+    if (els.reviewKeywordsList) {
+      els.reviewKeywordsList.addEventListener("click", (e) => {
+        const btn = e.target && e.target.closest ? e.target.closest("button[data-review-keyword]") : null;
+        if (!btn || !product) return;
+        const kw = btn.getAttribute("data-review-keyword") || "";
+        if (!kw) return;
+
+        // Toggle behavior: clicking the active keyword clears the filter.
+        const isSame =
+          activeReviewKeyword && String(activeReviewKeyword).toLowerCase() === String(kw).toLowerCase();
+        activeReviewKeyword = isSame ? null : kw;
+        reviewsExpanded = false; // keep existing "top 3 + show more" behavior on filter change
+
+        window.trackEvent("click_review_keyword", {
+          productId: String(productId),
+          keyword: kw,
+        });
+
+        renderReviewKeywords(product);
+        renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(product)));
+      });
+    }
+
+    // Scroll depth tracking (10% buckets, max-only).
+    (function attachScrollDepthTrackingForProduct() {
+      let maxDepth = 0;
+      let ticking = false;
+
+      function computeDepth() {
+        const doc = document.documentElement;
+        const scrollTop = window.scrollY || doc.scrollTop || 0;
+        const docHeight = Math.max(doc.scrollHeight || 0, doc.offsetHeight || 0);
+        const winHeight = window.innerHeight || doc.clientHeight || 0;
+        const denom = Math.max(1, docHeight - winHeight);
+        const pct = Math.round((scrollTop / denom) * 100);
+        const bucket = Math.max(0, Math.min(100, Math.floor(pct / 10) * 10));
+        if (bucket > maxDepth) {
+          maxDepth = bucket;
+          window.trackEvent("scroll_depth", {
+            depth: maxDepth,
+            pageType: "product",
+            productId: String(productId),
+          });
+        }
+      }
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(() => {
+            ticking = false;
+            computeDepth();
+          });
+        },
+        { passive: true }
+      );
+
+      computeDepth();
+    })();
+
     // Navbar search (redirects to index and filters there).
     const searchForm = document.getElementById("searchForm");
     const searchInput = document.getElementById("searchInput");
@@ -412,7 +564,7 @@
         if (reviewsExpanded) return;
         reviewsExpanded = true;
         window.trackEvent("expand_reviews", { productId: String(productId) });
-        renderReviews(getTopReviews(product));
+        renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(product)));
       });
     }
 
