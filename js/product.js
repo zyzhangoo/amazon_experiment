@@ -235,7 +235,7 @@
         const extraClass =
           norm === "bestseller"
             ? " badge-best-seller"
-            : norm === "amazonschoice"
+            : norm === "amazonschoice" || norm === "amazonchoice"
               ? " badge-amazon-choice"
               : "";
         return `<span class="badge${extraClass}">${window.escapeHtml(raw)}</span>`;
