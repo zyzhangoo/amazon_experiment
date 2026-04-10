@@ -22,6 +22,7 @@
     customersSayText: document.getElementById("customersSayText"),
     reviewKeywordsSection: document.getElementById("reviewKeywordsSection"),
     reviewKeywordsList: document.getElementById("reviewKeywordsList"),
+    keywordDetailBox: document.getElementById("keywordDetailBox"),
 
     reviewsContainer: document.getElementById("reviewsContainer"),
     expandReviewsBtn: document.getElementById("expandReviewsBtn"),
@@ -35,7 +36,8 @@
   let reviewsExpanded = false;
   let featuresExpanded = false;
   let descriptionExpanded = false;
-  let activeReviewKeyword = null;
+  /** Which keyword detail panel is open (null = closed). */
+  let openKeywordDetail = null;
 
   function setText(el, text) {
     if (!el) return;
@@ -104,21 +106,42 @@
     els.customersSayText.textContent = summary;
   }
 
-  function reviewTextMatchesKeyword(r, keyword) {
-    const kw = String(keyword || "").toLowerCase();
-    if (!kw) return false;
-    const body = r ? (r.review_body || r.comment || "") : "";
-    const headline = r ? (r.review_headline || "") : "";
-    const hay = `${headline} ${body}`.toLowerCase();
-    return hay.includes(kw);
+  function getKeywordDetailsMap(p) {
+    const raw = p ? (p["customer-review-keywords-details"] ?? p.customerReviewKeywordsDetails) : null;
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+    return raw;
   }
 
-  function getFilteredReviewsForActiveKeyword(allReviews) {
-    const list = Array.isArray(allReviews) ? allReviews : [];
-    if (!activeReviewKeyword) return list;
-    const filtered = list.filter((r) => reviewTextMatchesKeyword(r, activeReviewKeyword));
-    // Fallback behavior: if nothing matches, show all reviews.
-    return filtered.length ? filtered : list;
+  /** Returns string paragraphs for a keyword, or null if none. */
+  function getDetailParagraphsForKeyword(p, keyword) {
+    const map = getKeywordDetailsMap(p);
+    const kw = String(keyword || "");
+    if (!kw) return null;
+    let arr = map[kw];
+    if (arr == null) {
+      const lower = kw.toLowerCase();
+      const key = Object.keys(map).find((k) => String(k).toLowerCase() === lower);
+      if (key != null) arr = map[key];
+    }
+    if (!Array.isArray(arr) || arr.length === 0) return null;
+    const paras = arr
+      .map((s) => (s == null ? "" : String(s)).trim())
+      .filter(Boolean);
+    return paras.length ? paras : null;
+  }
+
+  function hideKeywordDetailBox() {
+    if (!els.keywordDetailBox) return;
+    els.keywordDetailBox.hidden = true;
+    els.keywordDetailBox.innerHTML = "";
+  }
+
+  function showKeywordDetailBox(paragraphs) {
+    if (!els.keywordDetailBox || !Array.isArray(paragraphs) || !paragraphs.length) return;
+    els.keywordDetailBox.innerHTML = paragraphs
+      .map((t) => `<p>${window.escapeHtml(t)}</p>`)
+      .join("");
+    els.keywordDetailBox.hidden = false;
   }
 
   function renderReviewKeywords(p) {
@@ -127,12 +150,15 @@
     if (!keywords.length) {
       els.reviewKeywordsSection.hidden = true;
       els.reviewKeywordsList.innerHTML = "";
+      hideKeywordDetailBox();
+      openKeywordDetail = null;
       return;
     }
     els.reviewKeywordsSection.hidden = false;
     els.reviewKeywordsList.innerHTML = keywords
       .map((k) => {
-        const isActive = activeReviewKeyword && k.toLowerCase() === String(activeReviewKeyword).toLowerCase();
+        const isActive =
+          openKeywordDetail && k.toLowerCase() === String(openKeywordDetail).toLowerCase();
         return `<button type="button" class="review-keyword-tag${isActive ? " is-active" : ""}" data-review-keyword="${window.escapeHtml(k)}" aria-pressed="${isActive ? "true" : "false"}">${window.escapeHtml(k)}</button>`;
       })
       .join("");
@@ -412,7 +438,8 @@
     product = p;
     featuresExpanded = false;
     descriptionExpanded = false;
-    activeReviewKeyword = null;
+    openKeywordDetail = null;
+    hideKeywordDetailBox();
 
     const imageUrl =
       resolveImageSrc(p.image) ||
@@ -440,7 +467,7 @@
     renderReviewKeywords(p);
 
     renderBadges(p);
-    renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(p)));
+    renderReviews(getTopReviews(p));
   }
 
   async function init() {
@@ -490,19 +517,28 @@
         const kw = btn.getAttribute("data-review-keyword") || "";
         if (!kw) return;
 
-        // Toggle behavior: clicking the active keyword clears the filter.
-        const isSame =
-          activeReviewKeyword && String(activeReviewKeyword).toLowerCase() === String(kw).toLowerCase();
-        activeReviewKeyword = isSame ? null : kw;
-        reviewsExpanded = false; // keep existing "top 3 + show more" behavior on filter change
-
         window.trackEvent("click_review_keyword", {
           productId: String(productId),
           keyword: kw,
         });
 
+        const isSame =
+          openKeywordDetail && String(openKeywordDetail).toLowerCase() === String(kw).toLowerCase();
+        if (isSame) {
+          openKeywordDetail = null;
+          hideKeywordDetailBox();
+          renderReviewKeywords(product);
+          return;
+        }
+
+        const paras = getDetailParagraphsForKeyword(product, kw);
+        if (!paras) {
+          return;
+        }
+
+        openKeywordDetail = kw;
+        showKeywordDetailBox(paras);
         renderReviewKeywords(product);
-        renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(product)));
       });
     }
 
@@ -564,7 +600,7 @@
         if (reviewsExpanded) return;
         reviewsExpanded = true;
         window.trackEvent("expand_reviews", { productId: String(productId) });
-        renderReviews(getFilteredReviewsForActiveKeyword(getTopReviews(product)));
+        renderReviews(getTopReviews(product));
       });
     }
 

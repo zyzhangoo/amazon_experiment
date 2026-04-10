@@ -278,6 +278,27 @@
   text-decoration-color: currentColor;
 }
 
+.keyword-detail-box {
+  margin-top: 14px;
+  padding: 14px 16px;
+  background: #ffffff;
+  color: #0f1111;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.keyword-detail-box p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #0f1111;
+}
+
+.keyword-detail-box p:last-child {
+  margin-bottom: 0;
+}
+
 .reviews-title {
   margin: 0 0 12px;
   font-size: 18px;
