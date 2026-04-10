@@ -97,6 +97,15 @@
                 "I always use SAN Disk. I thought this was a SAN Disk, but these are SAM DATA. Very confusing. It stopped working after a short period...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 656,
+            "Storage capacity": 344,
+            "Ease of use": 187,
+            "Portability": 116,
+            "Quality": 671,
+            "Speed": 377,
+            "Compatibility": 277
+        },
         "top_reviews": [
             {
                 "reviewer_name": "NotQuesoAtAll",
@@ -147,9 +156,11 @@
                 "review_body": "Love SamData. Hate the price. Get what ya pay for."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B082ZGHXK8.jpg",
-        "popularity": 1,
+        "popularity": 34,
         "freeShipping": false,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -264,6 +275,16 @@
                 "...Apart from that, it is a well-made product. Well built, and very compatible. Just very slow. Keep that in mind."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 189,
+            "Quality": 147,
+            "Speed": 103,
+            "Build quality": 60,
+            "Versatility": 60,
+            "Dual ports": 59,
+            "Storage capacity": 58,
+            "Compatibility": 82
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Luke",
@@ -316,9 +337,9 @@
         ],
         "badges": [],
         "image": "../images/B0DH1MKVQV.jpg",
-        "popularity": 37,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 10,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -424,6 +445,16 @@
                 "Bricked as soon as i tried to format"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 23,
+            "Value for money": 17,
+            "Storage capacity": 16,
+            "Color": 11,
+            "Size": 9,
+            "Reliability": 49,
+            "Speed": 11,
+            "Durability": 15
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Beth A.",
@@ -476,9 +507,9 @@
         ],
         "badges": [],
         "image": "../images/B07S4GGHNR.jpg",
-        "popularity": 26,
+        "popularity": 16,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -552,6 +583,12 @@
                 "...and so far the first one I used worked once and now is not recognized by any computer or device I plug it into...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 925,
+            "Ease of use": 340,
+            "Durability": 506,
+            "Compatibility": 192
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Yoersy Jiménez",
@@ -602,13 +639,11 @@
                 "review_body": "📝 Living in the digital age, we all need reliable, fast, and expansive storage devices. That’s where the SanDisk 256GB Ultra USB 3.0 Flash Drive comes into play. This high-capacity, high-speed device is not just a convenient, but an efficient solution for our ever-growing data storage needs. This small but powerful tech marvel has become an indispensable asset for my digital life, and here’s why:🚀 Unparalleled Speed and Performance: This flash drive delivers consistently fast data transfer rates, whether I’m transferring large multimedia files or backing up critical datasets. The time saved by avoiding slow transfers is invaluable and has significantly improved my productivity.💾 Spacious and Convenient: With an impressive 256GB of storage, this thumb drive accommodates all my files with ease. From high-resolution images and HD video files to important documents and an extensive music collection, it handles them all in its compact form.🔒 Robust Security: What sets this flash drive apart is the SanDisk SecureAccess software. It allows for password-protected files, offering reassurance that even if the drive is misplaced, my files remain secure.💪 Durable Design: The drive’s robust and retractable design protects the USB connector when not in use, ensuring longevity even with heavy daily usage.🔌 Universal Compatibility: The seamless compatibility with multiple devices (PCs and MACs with USB 3.0 ports) results in a smooth, hassle-free experience.🌐 Trustworthy Brand: SanDisk’s reputation as a global leader in digital storage adds an extra layer of trust and confidence in this product.However, one aspect could use some improvement:⏱️ USB 2.0 Compatibility: Though the drive is compatible with USB 2.0 ports, the transfer speeds are noticeably slower with these older ports. Users with older hardware should bear this in mind.In conclusion, the SanDisk 256GB Ultra USB 3.0 Flash Drive is a worthy 5-star contender ⭐⭐⭐⭐⭐. The blend of fast performance, large capacity, secure encryption, and enduring durability makes it an unbeatable choice. If you’re searching for a high-capacity, high-performance portable storage solution, look no further.Thank you for reading my review, and I hope it helps you in your decision-making process. Happy data storing and transferring! 💽⚡👍"
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B00KYK2AKO.jpg",
-        "popularity": 60,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 80,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -710,6 +745,15 @@
                 "These SanDisk Thumb Drives are a good size for most of my uses and files move pretty fast (enough for me anyway) between the Thumb Drive and Windows..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 893,
+            "Value for money": 618,
+            "Storage capacity": 599,
+            "Speed": 302,
+            "Transfer speed": 297,
+            "Ease of use": 262,
+            "Size": 217
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Rk Magill",
@@ -764,8 +808,8 @@
             "Amazon Choice"
         ],
         "image": "../images/B08HSQP37L.jpg",
-        "popularity": 38,
-        "freeShipping": true,
+        "popularity": 73,
+        "freeShipping": false,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -875,6 +919,16 @@
                 "...And they work just fine. They're not overwhelming and they're easy to reformat."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 273,
+            "Quality": 235,
+            "Storage capacity": 120,
+            "Ease of use": 48,
+            "Color variety": 45,
+            "Reliability": 315,
+            "Transfer speed": 52,
+            "Data integrity": 60
+        },
         "top_reviews": [
             {
                 "reviewer_name": "David Lawler",
@@ -926,11 +980,12 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0DHVQBQLQ.jpg",
-        "popularity": 70,
-        "freeShipping": true,
+        "popularity": 34,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -1009,6 +1064,12 @@
                 "Drive works, but overheats and it the Malaysia made one so it isn't the quality i hold sandisc to. WII READS the games but will not load them."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 925,
+            "Storage capacity": 802,
+            "Durability": 406,
+            "Heat": 947
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Robert Peoples",
@@ -1035,12 +1096,10 @@
                 "review_body": "Thought the 512GB was a counterfeit. But have proven it's not using simple tools that did write/read testing. For the most part, I got about 50-60MiB/s Write, and around 100-160MiB/s read, sequentially. Formatted (ExFAT/NTFS) it's about 460GB which has provisioning for extra spare blocks to lengthen lifespan and speed. Overall. I give is a 4-stars. 5 for being what they said it is, 4 stars for the slightly slow write speed. This is because the drive is fresh, and this definitely isn't NAND memory. Even TLC NAND is faster, but it may be adequate enough. For my wife, long-term photo storage is what I got it for, and it'll fit. Not only isn't small, but the relative storage size is huge, and cheap, and I can see this used for a lot of trading media or swapping out backups overtime cheaply. It's likely many degrees higher able to survive fires in a fire lock box than a hard drive, and tiny enough to throw on a keychain for imaging with something like ventoy or a quick and dirty linux/windows boot disk. It seems to be of decent sandisk quality, and time will tell, but maybe for a single or dual-disk raspberry Pi server, or even a server intenal boot disk for diagnostics/headlsess server, this is likely a great use for that. it's fast enough for a raspberri pi 4 and small enough to not be a nuisance. also great if you have a car that needs to offload dashcam footage like a tesla or some retrofitted car entertainment systems. It doesn't generate too much heat, even after me running full tests, and can be used as a quick and small OS X bootable disk if you are at a university with a lot of storage space. They seemed to have design some reliability thinking with the spare blocks being reserved, meaning it should last a long time. It should be able to do most file systems, but for FAT32, you may need to create a partition for that, but you can do a lot of 32GB FAT32 partitions if you need to, and reserve the rest for Linux, MacOS or Windows-based filesystems for bootable and other data seperate. Could be used to make a kiosk in public too with right tools while being able to hide it, or pull it quick."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B015CH1PJU.jpg",
-        "popularity": 47,
-        "freeShipping": true,
+        "popularity": 50,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -1151,6 +1210,16 @@
                 "...USB flash drive, everything is medium to medium well, Decent speed, good size, not too small, a little on the big size, I like the slider, it helps..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 736,
+            "Quality": 407,
+            "Value for money": 404,
+            "Storage capacity": 389,
+            "Speed": 403,
+            "Durability": 158,
+            "Compatibility": 123,
+            "Size": 117
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Rolando Rodriguez",
@@ -1201,13 +1270,11 @@
                 "review_body": "Easy to install, I was able to view the pendrive and transferred several files and photos without difficulty. The only negative point is that its input is USB, current laptops no longer use USB, I had to buy an adapter."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B0B6148YKN.jpg",
-        "popularity": 88,
+        "popularity": 74,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -1316,6 +1383,16 @@
                 "Cover a little hard to slide. Shipped in individual plastic bags. These are ordinary bags but antistatic should be used to prevent damage...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 157,
+            "Value for money": 116,
+            "Quality": 100,
+            "Storage capacity": 42,
+            "Portability": 32,
+            "Speed": 112,
+            "Size": 26,
+            "Sliding cover": 19
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Tom watson",
@@ -1367,12 +1444,13 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B09RG1TNM7.jpg",
-        "popularity": 51,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 96,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -1482,6 +1560,16 @@
                 "This is NOT IOS or iPhone compatible."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 114,
+            "Value for money": 67,
+            "Storage capacity": 66,
+            "Transfer speed": 65,
+            "Ease of use": 53,
+            "File transfer": 38,
+            "Reliability": 174,
+            "Compatibility": 71
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Lilly",
@@ -1521,13 +1609,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0CSW6375K.jpg",
-        "popularity": 74,
-        "freeShipping": true,
-        "fastDelivery": true,
+        "popularity": 17,
+        "freeShipping": false,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -1636,6 +1723,16 @@
                 "...They are both fast and well constructed."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 50,
+            "Quality": 47,
+            "Value for money": 42,
+            "Transfer speed": 26,
+            "Storage capacity": 23,
+            "Ease of use": 11,
+            "Durability": 10,
+            "Build quality": 11
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Vadim Popov",
@@ -1690,9 +1787,9 @@
             "Best Seller"
         ],
         "image": "../images/B0F989V56N.jpg",
-        "popularity": 18,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 35,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -1765,6 +1862,12 @@
                 "Great value, perfect for storing pictures"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 63,
+            "Value for money": 54,
+            "Reliability": 123,
+            "Storage capacity": 34
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jay Tee",
@@ -1816,10 +1919,11 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B08CRMBD93.jpg",
-        "popularity": 64,
+        "popularity": 37,
         "freeShipping": false,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -1903,6 +2007,13 @@
                 "Reliable and fast storage! Works perfectly right out of the box...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 117,
+            "Storage capacity": 107,
+            "Reliability": 287,
+            "Quality": 117,
+            "Speed": 115
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer",
@@ -1937,8 +2048,8 @@
         ],
         "badges": [],
         "image": "../images/B08CGXYNKV.jpg",
-        "popularity": 19,
-        "freeShipping": false,
+        "popularity": 12,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -2041,6 +2152,15 @@
                 "Legacy item. No support from Western Digital. I completed all information then a message read, No Longer Supported. No software...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 783,
+            "Storage capacity": 638,
+            "Value for money": 601,
+            "Ease of use": 369,
+            "Capacity": 124,
+            "Speed": 330,
+            "Compatibility": 135
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Rohan P",
@@ -2091,13 +2211,11 @@
                 "review_body": "Can confirm it works for USB loadergx on the Wii no issues whatsoever also gives the opportunity to run Project Plus with Brawl in the flash drive just don't forget to format to FAT32."
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B007YX9OA8.jpg",
-        "popularity": 18,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 25,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -2209,6 +2327,16 @@
                 "...It connects quickly and works smoothly with both USB-C and regular USB. Super convenient and very useful!"
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 189,
+            "Quality": 147,
+            "Speed": 103,
+            "Build quality": 60,
+            "Versatility": 60,
+            "Dual ports": 59,
+            "Storage capacity": 58,
+            "Compatibility": 82
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Luke",
@@ -2260,12 +2388,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B0DH1RGJY9.jpg",
-        "popularity": 66,
+        "popularity": 22,
         "freeShipping": true,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -2374,6 +2502,16 @@
                 "Idk what speed everyone is talking about, this thing is super slow to transfer files.. Never using it again.."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 204,
+            "Quality": 121,
+            "Value for money": 116,
+            "Storage capacity": 67,
+            "Speed": 124,
+            "Ease of use": 53,
+            "Size": 39,
+            "Transfer speed": 36
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Beeeil",
@@ -2406,9 +2544,11 @@
                 "review_body": "The media could not be loaded. Fantastic little flash drive for the price. The USB speeds are noticeable, making file transfers much quicker. It's compact, seems durable enough for everyday use, and the 128GB capacity offers plenty of storage for documents, media, and backups.Only complaint is that 1 of the drives came with a \"write only\" setting on it so it's virtually unusable or I need to spend more time to figure it out which is a bummer and causes me to give it a lesser star rating for inconvenience."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B0DSR9D4PL.jpg",
-        "popularity": 84,
+        "popularity": 70,
         "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -2510,6 +2650,15 @@
                 "Works great. Durable."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 26,
+            "Quality": 18,
+            "Storage capacity": 14,
+            "Reliability": 41,
+            "Speed": 9,
+            "File transfer speed": 6,
+            "Durability": 9
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jon",
@@ -2560,13 +2709,11 @@
                 "review_body": "Seemed to be working fine until I dropped my laptop and it broke into many pieces. Very fragile"
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B07GN6CGDF.jpg",
-        "popularity": 98,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 1,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -2675,6 +2822,16 @@
                 "A great product and met my needs. However, 1 of the flash drives could not be recognized and had a malfunction warning that popped up when plugged..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 199,
+            "Storage capacity": 108,
+            "Ease of use": 55,
+            "Size": 42,
+            "Reliability": 345,
+            "Quality": 201,
+            "Speed": 73,
+            "Compatibility": 40
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Chad Bell",
@@ -2727,8 +2884,8 @@
         ],
         "badges": [],
         "image": "../images/B07XSGNQ2X.jpg",
-        "popularity": 88,
-        "freeShipping": true,
+        "popularity": 98,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -2816,6 +2973,13 @@
                 "...The metal case seems very strong and it's very compact, even compared with other thumb drives. There is also a place to loop it through a key chain...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Durability": 922,
+            "Design": 858,
+            "Storage capacity": 767,
+            "Value for money": 592,
+            "Size": 567
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Joshua B",
@@ -2866,10 +3030,13 @@
                 "review_body": "This USB flash drive is one of the most reliable ones I have ever owned. The metal casing feels premium and provides excellent protection for the storage inside. I have kept one on my keychain and taken it traveling for years, and it has survived almost everything. Once it was even crushed under a luggage trolley wheel and barely had a scratch. Another one has a small dent, but it still works perfectly and plugs in without any issue.Transfer speeds are impressive, especially when reading large files. With speeds up to 400 MB/s, it performs smoothly and consistently. It is advertised as waterproof, shockproof, and heatproof, and most of that seems accurate. The only downside is that it gets very hot after long or heavy use. Despite that, it has never affected performance or reliability in my experience.For anyone who needs a compact, tough, and fast flash drive for travel or daily work, this is an excellent choice. It easily earns its reputation as one of the most durable drives on the market."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B07BPG9YX9.jpg",
-        "popularity": 92,
-        "freeShipping": false,
+        "popularity": 55,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -2970,6 +3137,15 @@
                 "Reformated and lost GB. Non-working after reformated! Error msg and PC locked up...Reach out via email months ago still has the two flash drive..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 77,
+            "Storage capacity": 54,
+            "Color": 18,
+            "Reliability": 126,
+            "Quality": 86,
+            "Transfer speed": 31,
+            "Data loss": 34
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Liliana V Jimenez",
@@ -3020,13 +3196,11 @@
                 "review_body": "Great flashdrive. I needed this to store some of my game memory on my PS5. Unfortunately it doesn't support PS5 games but it does support PS4 games. Luckily, the games I was able to store on the flash drive gave me just enough room for my PS5 games so I can add an internal hard drive. Easy use and love the color. It didnt take long for it to move to and from the flash drive."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B09WY73DSN.jpg",
-        "popularity": 73,
+        "popularity": 14,
         "freeShipping": true,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -3113,6 +3287,13 @@
                 "...The metal case seems very strong and it's very compact, even compared with other thumb drives. There is also a place to loop it through a key chain...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Durability": 922,
+            "Design": 858,
+            "Storage capacity": 767,
+            "Value for money": 592,
+            "Size": 567
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Joshua B",
@@ -3167,9 +3348,9 @@
             "Amazon Choice"
         ],
         "image": "../images/B07BPK3XWW.jpg",
-        "popularity": 10,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 76,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -3282,6 +3463,16 @@
                 "...lanyard or key ring attachment; because, it is quite compact and easy to misplace."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 672,
+            "Speed": 603,
+            "Size": 580,
+            "Quality": 474,
+            "Storage capacity": 290,
+            "Value for money": 214,
+            "Compatibility": 283,
+            "Portability": 220
+        },
         "top_reviews": [
             {
                 "reviewer_name": "chall",
@@ -3309,12 +3500,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B09WB2NL8W.jpg",
-        "popularity": 24,
+        "popularity": 65,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -3422,6 +3613,16 @@
                 "I like that I can color code what I need to store. I keep installs for different operating systems and these make keeping track of things easier."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 45,
+            "Reliability": 43,
+            "Value for money": 37,
+            "Portability": 28,
+            "Storage capacity": 22,
+            "Carrying case": 19,
+            "Adapters": 16,
+            "Color variety": 13
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer",
@@ -3473,11 +3674,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B0CZ7HMFB4.jpg",
-        "popularity": 32,
-        "freeShipping": false,
+        "popularity": 77,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -3556,6 +3757,12 @@
                 "Drive works, but overheats and it the Malaysia made one so it isn't the quality i hold sandisc to. WII READS the games but will not load them."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 925,
+            "Storage capacity": 802,
+            "Durability": 406,
+            "Heat": 947
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Robert Peoples",
@@ -3583,10 +3790,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B06XG9XP49.jpg",
-        "popularity": 14,
+        "popularity": 21,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -3698,6 +3906,16 @@
                 "very hot!!!!"
             ]
         },
+        "customer-review-keywords-count": {
+            "Size": 64,
+            "Transfer speed": 54,
+            "Performance": 43,
+            "Storage capacity": 23,
+            "Value for money": 19,
+            "Data storage": 14,
+            "Compatibility": 20,
+            "Heat": 19
+        },
         "top_reviews": [
             {
                 "reviewer_name": "scopin4u2",
@@ -3748,11 +3966,14 @@
                 "review_body": "Great flash drive. Huge capacity and fast."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B0DSG3FWJB.jpg",
-        "popularity": 87,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 49,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -3861,6 +4082,16 @@
                 "Super slow! 7 hours to transfer 56 gb of pictures. 4 hours to format. I bought 3 and trashed all 3 of them within 4 hours of receiving."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 109,
+            "Quality": 76,
+            "Storage capacity": 49,
+            "Ease of use": 38,
+            "Reliability": 160,
+            "Durability": 26,
+            "Size": 18,
+            "Transfer speed": 37
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Leonardo Boza",
@@ -3912,12 +4143,13 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B07WGD7VW5.jpg",
-        "popularity": 67,
+        "popularity": 3,
         "freeShipping": true,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -3990,6 +4222,12 @@
                 "...and so far the first one I used worked once and now is not recognized by any computer or device I plug it into...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 925,
+            "Ease of use": 340,
+            "Durability": 506,
+            "Compatibility": 192
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Yoersy Jiménez",
@@ -4041,12 +4279,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B00KYK2ABI.jpg",
-        "popularity": 38,
+        "popularity": 31,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -4138,6 +4377,14 @@
                 "Easy to use Flash drive.Enough storage pack of 5 for low proce"
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 142,
+            "Quality": 106,
+            "Value for money": 102,
+            "Storage capacity": 47,
+            "Speed": 105,
+            "Ease of use": 31
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Fred C.",
@@ -4189,12 +4436,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B08HW32VG6.jpg",
-        "popularity": 38,
-        "freeShipping": true,
-        "fastDelivery": true,
+        "popularity": 60,
+        "freeShipping": false,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -4311,6 +4558,16 @@
                 "...I assume they are as secure as any other thumb drive and should be a durable, too, as long as they are mishandled and treated roughly...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 538,
+            "Size": 477,
+            "Quality": 355,
+            "Speed": 236,
+            "Storage capacity": 215,
+            "Value for money": 187,
+            "Heat": 230,
+            "Durability": 182
+        },
         "top_reviews": [
             {
                 "reviewer_name": "zon_Buyer",
@@ -4361,13 +4618,10 @@
                 "review_body": "Excellent little stick. I use it in my car stereo to listen to MP3s. Its nice compact design allows me to leave it in the stereo and it doesn't stick out where it could get in the way."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B077VXV323.jpg",
-        "popularity": 54,
-        "freeShipping": false,
+        "popularity": 81,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -4468,6 +4722,15 @@
                 "...2 of these, one of them works well so far, the other one will not accept any files and will not accept formatting...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 896,
+            "Quality": 656,
+            "Storage capacity": 592,
+            "Ease of use": 141,
+            "Portability": 91,
+            "Speed": 787,
+            "Compatibility": 145
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer",
@@ -4512,11 +4775,13 @@
                 "review_body": "These work for everything I need them to; I set up several with bootable versions of linux to use in troubleshooting computer systems. 64gb is overkill for that and memtest, but these were affordable and I trust that microcenter products will not be at risk for carrying any extra unwanted data. There are cheaper flash drives available, but I think that the price I paid was fair to have some peace of mind, especially since I have used these to plug into other people's systems."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B07T4J6X1N.jpg",
-        "popularity": 41,
+        "popularity": 48,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -4627,6 +4892,16 @@
                 "Very affordable, Value for money. Transfer data fast."
             ]
         },
+        "customer-review-keywords-count": {
+            "Performance": 44,
+            "Quality": 37,
+            "Value for money": 32,
+            "Storage capacity": 24,
+            "Color": 19,
+            "Durability": 16,
+            "Functionality": 11,
+            "Transfer speed": 21
+        },
         "top_reviews": [
             {
                 "reviewer_name": "William J. Henderson",
@@ -4677,9 +4952,11 @@
                 "review_body": "Love these. They are perfect for what I need. I use the different colors for different subjects. Ex. Green for copying my financial files, purple for pictures of my daughter and family, light blue for a son, dark blue for another son, etc."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Best Seller"
+        ],
         "image": "../images/B07PVJTF4C.jpg",
-        "popularity": 65,
+        "popularity": 25,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -4790,6 +5067,16 @@
                 "This Flash drive is not 3.0 it is 2.0 and transfer speed is slow. This is a false advertisement saying it's 3.0 and it's not...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 60,
+            "Quality": 41,
+            "Storage capacity": 40,
+            "Value for money": 39,
+            "Data transfer": 8,
+            "Transfer speed": 44,
+            "Size": 15,
+            "Compatibility": 9
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Scott V.",
@@ -4840,9 +5127,11 @@
                 "review_body": "Does exactly whats its supposed to do. Fast download speeds and compatibility."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B0BDTKK1XZ.jpg",
-        "popularity": 48,
+        "popularity": 8,
         "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -4950,6 +5239,16 @@
                 "Some do not light up and some have data and have to be formatted...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 40,
+            "Storage capacity": 16,
+            "Ease of use": 9,
+            "Color coding": 8,
+            "Reliability": 55,
+            "Quality": 38,
+            "Data transfer": 7,
+            "Formatting": 6
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Tile Tool Jim",
@@ -5001,10 +5300,11 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0CMXBZ4M8.jpg",
-        "popularity": 82,
+        "popularity": 34,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -5115,6 +5415,16 @@
                 "...I'm glad I gave it a shot, for me it worked easily it does comes with instructions people you just have to open them through the software that..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Functionality": 282,
+            "Quality": 113,
+            "Ease of use": 96,
+            "Installation": 95,
+            "Value for money": 88,
+            "Lifesaver": 47,
+            "Boot issues": 116,
+            "Instructions": 84
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Enoc",
@@ -5154,12 +5464,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B0BYW1G4QR.jpg",
-        "popularity": 22,
-        "freeShipping": false,
+        "popularity": 65,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -5210,6 +5519,7 @@
         "ai-generated-summary": "Customers find the external hard drive reliable and easy to use, with lots of storage space for games and good value for money. The drive works well with Xbox One and PS4, though some report it doesn't work with Mac computers. While some customers say it's fast, others find it slow. Several customers report reliability issues, with drives failing after one use.",
         "customer-review-keywords": [],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Cami",
@@ -5248,14 +5558,11 @@
                 "review_body": "This is the 3rd one I've purchased and have had zero issues with any of them. As a photographer,I have thousands of photo and video files, both in Raw and in finished form (be it still image or video), and this unit has never disappointed, which is why I keep buying the same product. It fits perfectly behind my monitor, I've never had overheating issues with it, and it's pretty much plug and play. This is definitely my \"external brain\" of choice."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B07CRG94G3.jpg",
-        "popularity": 49,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 94,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -5308,6 +5615,7 @@
         "ai-generated-summary": "Customers find the external hard drive reliable and easy to use, with lots of storage space for games and good value for money. The drive works well with Xbox One and PS4, though some report it doesn't work with Mac computers. While some customers say it's fast, others find it slow. Several customers report reliability issues, with drives failing after one use.",
         "customer-review-keywords": [],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Cami",
@@ -5347,11 +5655,11 @@
             }
         ],
         "badges": [
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B07VS8QCXC.jpg",
-        "popularity": 37,
-        "freeShipping": false,
+        "popularity": 42,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -5461,6 +5769,15 @@
                 "No usbC connector included, need to buy separately."
             ]
         },
+        "customer-review-keywords-count": {
+            "Functionality": 24,
+            "Storage capacity": 21,
+            "Value for money": 11,
+            "Ease of use": 10,
+            "Mac compatibility": 5,
+            "Formatting": 5,
+            "Usb connectivity": 5
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Arron Lara",
@@ -5513,8 +5830,8 @@
         ],
         "badges": [],
         "image": "../images/B0FV8D5Y4D.jpg",
-        "popularity": 41,
-        "freeShipping": false,
+        "popularity": 9,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -5620,6 +5937,14 @@
                 "Could be a good product but was not recognized by my MacBook 4. Returned for refund."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 15,
+            "Performance": 14,
+            "Ease of use": 9,
+            "Transfer speed": 8,
+            "Compact size": 6,
+            "Compatibility": 32
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jasmine",
@@ -5671,12 +5996,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0FJRQ9VMM.jpg",
-        "popularity": 30,
-        "freeShipping": true,
-        "fastDelivery": true,
+        "popularity": 73,
+        "freeShipping": false,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -5801,6 +6127,16 @@
                 "Portable, solid, plug and play, no problems after a few months of regular use."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 224,
+            "Durability": 127,
+            "Storage capacity": 99,
+            "Transfer speed": 82,
+            "Value for money": 80,
+            "Reliability": 284,
+            "Data loss": 127,
+            "Connectivity": 78
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Scott Allen",
@@ -5851,11 +6187,13 @@
                 "review_body": "So far so good! Super easy to use and compatible on a MacBook Pro. The orange cover is also great for protection. Big enough not to lose but small enough for convenience. Love this!!!"
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B00IRV005E.jpg",
-        "popularity": 46,
+        "popularity": 99,
         "freeShipping": true,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -5978,6 +6316,16 @@
                 "Large size offers good backup. However, this is so very slow as to be impractical...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 284,
+            "Value for money": 210,
+            "Storage capacity": 205,
+            "Ease of use": 113,
+            "Backup": 102,
+            "Reliability": 519,
+            "Noise level": 231,
+            "Speed": 223
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Mitsu-aki",
@@ -6010,11 +6358,9 @@
                 "review_body": "The external hard drive enclosure is slightly bigger than the actual hard drive itself. In my experience it has an okay speed. Not the fastest drive that I've used. The USB port is a normal usb-a 3.0 port so no usb-c. The power source has multiple adapters for people who would use it for their travels so no matter what kind of power outlet it present you should be okay. The design of the external case has openings to vent the heat coming from the actual hard drive inside. In terms of security, the drive is held in my rubber pads within the external enclosure that are surrounded by plastic tabs that hold it in.The external hard drive is a good choice to use for a NAS build if you are comfortable shucking the external case. The price is competitive when compared to a normal NAS internal drive. If you choose to go that route bear in mind that shucking the drive comes at the risk of voiding the warranty. Overall it's decent and has been running well on my NAS.The okay speed on the drive is the limiting factor which is why it's 4 out of 5 stars.Lastly the actual enclosure itself will still run other old drives if the ribbon cable and board aren't damaged during the shucking process. Any old 3.5 internal drives would work perfectly to recycle and not throw out the remaining hardware."
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0DW8ZW47C.jpg",
-        "popularity": 66,
+        "popularity": 39,
         "freeShipping": false,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -6124,6 +6470,14 @@
                 "Dead on Arrival - Did not work on multiple pcs. Drive wouldn't even show up under disk management. It also sees to have."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 947,
+            "Storage capacity": 883,
+            "Ease of installation": 654,
+            "Speed": 771,
+            "Noise level": 645,
+            "Compatibility": 209
+        },
         "top_reviews": [
             {
                 "reviewer_name": "ILoveWritingReviews",
@@ -6157,13 +6511,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B07H2RR55Q.jpg",
-        "popularity": 6,
+        "popularity": 10,
         "freeShipping": true,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -6284,6 +6637,16 @@
                 "I do not know why, but it did not work with macOS, although I checked it with Windows, it did show up..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 327,
+            "Value for money": 224,
+            "Storage capacity": 184,
+            "Ease of use": 174,
+            "Portability": 170,
+            "Reliability": 633,
+            "Speed": 183,
+            "Compatibility": 160
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Gissernes",
@@ -6322,12 +6685,10 @@
                 "review_body": "Bought this because I needed extra storage for pictures and school stuff. When I first got it, I uploaded a bunch of pictures and tried to hit the \"safely remove hard drive\" button. However, this button wasn't there, it was as if my computer wasn't recognizing that it was plugged in even though I had just saved a bunch of stuff to it. Eventually I just had to unplug it without \"safely removing\" it. Thankfully it was five afterwards. This happened a couple more times which made me very nervous to save anything too important on it. Then after maybe the 4th or 5th time trying, it started working (or removing) the way it should. Since then it works perfect. I'm very happy that it's working now, but it was a very odd and worrisome problem. Please keep in mind that this could have been my personal computer acting up, however I've had this computer for years and it's never done that before."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B0BQX6DVWY.jpg",
-        "popularity": 51,
-        "freeShipping": false,
+        "popularity": 65,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -6453,6 +6814,16 @@
                 "Incompatible with my Drobo and Not Returnable :..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Performance": 324,
+            "Value for money": 127,
+            "Storage capacity": 72,
+            "Nas compatibility": 71,
+            "Installation": 68,
+            "Reliability": 524,
+            "Noise level": 262,
+            "Compatibility": 75
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer for a really long time",
@@ -6483,9 +6854,9 @@
             "Best Seller"
         ],
         "image": "../images/B084ZV4DXB.jpg",
-        "popularity": 36,
+        "popularity": 39,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -6606,6 +6977,16 @@
                 "...I am sure it is great for PC's, but don't think about this drive for a Mac. Just bought a Sandisk Professional G40 2TB SSD and WOW!..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Speed": 314,
+            "Reliability": 220,
+            "Quality": 159,
+            "Compact size": 138,
+            "Value for money": 90,
+            "Ease of use": 67,
+            "Durability": 66,
+            "Versatility": 53
+        },
         "top_reviews": [
             {
                 "reviewer_name": "E. Perez",
@@ -6650,11 +7031,9 @@
                 "review_body": "No joke, this drive is the best ive had. I have gone through like, 8 computers on this baby, and its made it so i can plug and play all my games whenever in a pinch. Granted, its not as good as using an SSD via SATA, but my god, its hard to tell much of a difference.If you need a drive thats for gaming on the go, for use on a steamdeck, or whatever, it can handle it. HIGHLY recommend this, out of the 15 external drives ive had, easily the best.Pros:Comes with all the cables you could need, though no case. No problem, i had a few of my own that worked. Cables are long enough to put on top or have it touch the desk on a full sized desktop, and arent too big to prevent me from using other ports.Portable as hell, like, no joke, I can grab this drive, take it over to my buddies place, sign into a spare computer at his place, and play after adding the drive in steam.Connections, it comes with USBC to USBC and a USBC to USBA, none of those wacky proprietary connectors into the drive like in years past.Its easy to use and install, plug and play, and works off the bat.Con: It gets a touch warm? But like, thats to be expected. Its an SSD, and those can put off crazy heat depending on what your doing to them"
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B0CHFSZX9W.jpg",
-        "popularity": 50,
+        "popularity": 41,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -6778,6 +7157,16 @@
                 "...The drive storage was rarely be used beyond 1TB. Now it has crashed and won’t let my laptop access it at all. Waste of money...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Speed": 480,
+            "Quality": 349,
+            "Compact size": 247,
+            "Portability": 215,
+            "Durability": 138,
+            "Reliability": 593,
+            "Value for money": 149,
+            "Data loss": 346
+        },
         "top_reviews": [
             {
                 "reviewer_name": "A",
@@ -6805,12 +7194,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B08RX3343D.jpg",
-        "popularity": 11,
-        "freeShipping": false,
+        "popularity": 68,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -6907,6 +7295,13 @@
                 "This holds a good amount of data and is still very small. Works with my Mac and is so amazingly fast to transfer files even large folders transfer..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Size": 709,
+            "Storage capacity": 573,
+            "Value for money": 444,
+            "Ease of use": 413,
+            "Compatibility": 345
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Thomas",
@@ -6939,14 +7334,11 @@
                 "review_body": "The Samsung T7 Portable SSD 2TB External Solid State Drive works as intended. Like many other SSD's, this one is fast. Not only is it fast, it is lightweight, small, carries lots of storage and feels quite durable. Noise? None. The only freezes you would get would be probably from your own computer depending on reads and writes from other storage devices, whether it be internal or external storage. This device will not freeze on you. It is purposely developed for fast reads (view data) and writes (modify data). The computer recognition will see it as any other external storage media. This of course depends on your operating system, as it may use a different file system. This device came with a firmware installer, which you can delete, and if you want it back, you can simply go search up the model number of this device and redownload the firmware. This is a very convenient product, compared to something as slow as a hard drive, this SSD will not fail you. However, do take note that hard drive's last a long time, I have a 15 year old hard drive and it's still running to this day. I am not too familiar with the infrastructure of a SSD, as data is being read and written digitally, but hard drive's are easier to understand for me personally. SSD's do last too, but not as long as a hard drive. But, I am sure depending on your scenario and uses, you may prefer speed over longevity."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0874XN4D8.jpg",
-        "popularity": 17,
-        "freeShipping": true,
-        "fastDelivery": true,
+        "popularity": 6,
+        "freeShipping": false,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -7063,6 +7455,15 @@
                 "Works great with my PS4(not a PS4 Pro). No noticable difference in loading, downloading or lag between this HD and the PS4."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 750,
+            "Value for money": 471,
+            "Storage capacity": 464,
+            "Ease of use": 453,
+            "Portability": 372,
+            "Compact size": 232,
+            "Compatibility": 300
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Israel Tolentino",
@@ -7114,10 +7515,10 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B07CRG7BBH.jpg",
-        "popularity": 13,
+        "popularity": 16,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -7240,6 +7641,16 @@
                 "...So far, it’s been reliable and durable—perfect for backing up important files or expanding PC storage."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 161,
+            "Value for money": 113,
+            "Ease of use": 107,
+            "Storage capacity": 105,
+            "Reliability": 290,
+            "Compatibility": 101,
+            "Transfer speed": 63,
+            "Data loss": 57
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Vernon",
@@ -7294,7 +7705,7 @@
             "Amazon Choice"
         ],
         "image": "../images/B0B2CYCNMG.jpg",
-        "popularity": 17,
+        "popularity": 81,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -7416,6 +7827,16 @@
                 "Parameters are incorrect. Corrupted hard drive"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 197,
+            "Ease of use": 115,
+            "Value for money": 115,
+            "Speed": 81,
+            "Storage capacity": 69,
+            "Reliability": 285,
+            "Compatibility": 87,
+            "Durability": 55
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Sam Schwaller",
@@ -7466,14 +7887,11 @@
                 "review_body": "Seems to be very acceptable. Had an issue with backing up my laptop first go around, but looks acceptable now,"
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0CF4SQY1X.jpg",
-        "popularity": 29,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 54,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -7571,6 +7989,13 @@
                 "...engineered for surveillance environments, and it shows—these drives run quietly and efficiently, handling constant writing and heavy workloads with..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Storage capacity": 18,
+            "Quality": 16,
+            "Speed": 8,
+            "Reliability": 47,
+            "Noise level": 17
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Neil",
@@ -7621,10 +8046,12 @@
                 "review_body": "I have 4 of these in a Ubiquiti Unifi NVR recording 24/7 from 10 cameras for the past 2 years. Added an additional one recently. These are reliable and more quiet than the Seagates but a little pricier. Not a big deal if it's in the closet anyway though."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Best Seller"
+        ],
         "image": "../images/B0DF9KSWYD.jpg",
-        "popularity": 31,
-        "freeShipping": true,
+        "popularity": 81,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -7749,6 +8176,16 @@
                 "The hard drive failed and I lost all data. It then failed again...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 378,
+            "Storage capacity": 136,
+            "Size": 129,
+            "Reliability": 774,
+            "Speed": 261,
+            "Value for money": 178,
+            "Compatibility": 151,
+            "Data loss": 142
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Suzanne Roth",
@@ -7794,12 +8231,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B07X46C64N.jpg",
-        "popularity": 54,
+        "popularity": 12,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -7857,6 +8294,7 @@
             "4.4 4.4 out of 5 stars"
         ],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Ruben",
@@ -7908,10 +8346,10 @@
             }
         ],
         "badges": [
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B08FQ3VST4.jpg",
-        "popularity": 51,
+        "popularity": 17,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -8036,6 +8474,16 @@
                 "Super Fast and cooler than previous generations..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 677,
+            "Speed": 641,
+            "Quality": 441,
+            "Value for money": 266,
+            "Installation": 219,
+            "Storage capacity": 114,
+            "Compatibility": 134,
+            "Thermals": 111
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Juniorverse",
@@ -8063,12 +8511,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0BHJF2VRN.jpg",
-        "popularity": 70,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 73,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -8193,6 +8642,16 @@
                 "Hard drives go bad. I've got a four drive configuration in Raid 10, and this is the first time I've had to test the 'self-rebuild' feature...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 388,
+            "Quality": 260,
+            "Noise level": 115,
+            "Value for money": 95,
+            "Speed": 89,
+            "Installation": 63,
+            "Compatibility": 56,
+            "Durability": 84
+        },
         "top_reviews": [
             {
                 "reviewer_name": "MJ",
@@ -8219,9 +8678,11 @@
                 "review_body": "Pros:Time Limited Error Recovery (TLER) for NAS/RAID usage.Price premium much lower/insignificant compared to what it used to be for NAS/RAID drives.Low power/Low temp.Cons:Warranty only 3 years (What happened to the 5-year warranties, WD?)I've seen failures in many drives from Seagate, WD, and other vendors in the past. Hard drives fail. Even SSDs fail sometimes. That's why RAID configurations are so popular. All versions of RAID configuration (except for RAID 0) introduce redundancy, such that if any single drive fails, no data need be lost. Full redundancy can be regained by rebuilding the array with a replacement drive, theoretically keeping your data safe from single single points of hardware failure indefinitely.These NAS drives go one step further in that their behavior is optimized for a RAID environment. In particular, Time Limited Error Recovery (TLER) allows them to rely on the redundancy built into the RAID controller and the overall array to handle the sorts of errors which will inevitably pop up at some point. This reduces risks to data that can be caused by the behaviors of regular desktop disks, whose designers optimized them for environments where there is no RAID array backup. I have been running RAID arrays regularly with desktop drives for over 6 years now, and it's been a pretty frequent occurrence where a drive would suddenly have to be rebuilt for no apparent reason. In all likelihood, the reason was just a few bad sectors on the disk, which happens all the time. The total failure rate of drives in a RAID has been a little above normal, but the total rebuild rate without total failure has been very high. Read up on TLER, and you'll understand why that is expected behavior with desktop drives but not with NAS drives. The total drive rebuild process is actually fairly risky to the integrity of the data, considering that in most configurations there is no redundancy while this is happening. Therefore, making sure that a total rebuild doesn't happen unless necessary is a pretty good idea if you want to protect your data. That's why I am upgrading my RAID arrays with these drives.In response to the reviewer who complained that the WDIDLE3 issue affects these drives:I just bought 4 of these drives in the 1TB version from Amazon. (July 2015) All are model WD10EFRX. I ran WDIDLE3 /R to read the current value of the timer on all four of them before connecting them to my RAID controller. All four came set to 300 seconds (5 minutes.)This is a very reasonable value for most NAS/RAID usage, and certainly not as problematic as the 8 second timer that caused the well-known problems on some previous WD drives. If you're using these to mount an OS drive or a drive in Windows, that 5 minute timer will probably never be invoked. If you're using these on a 24/7 NAS or for non-OS storage in Linux like I do, that timer could lead to considerable power savings and reduced average temperatures, the latter of which will probably extend the life of the drive, not shorten it.The only way I could see the 300 second idle timer being a problem is if you're running a script that causes disk access every 6 minutes (or 10 or 15.) i.e. if there's something that regularly forces spin-up right after the disk idle has gone into effect. In that case, WDIDLE3 is included on the ultimate boot CD version 5.3.5 and can be used to disable the timer. An idle timeout of 300 seconds is a pretty good feature in most cases, though.P.S. I have four more 3TB versions of this drive in transit for my NAS (the 1TBs were for my linux desktop) I will check the default WDIDLE3 values on them as well and post here if they prove to be different."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B0F4R3YCL6.jpg",
-        "popularity": 96,
+        "popularity": 79,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -8337,6 +8798,15 @@
                 "...8TB WD drive inside. Put it inside my tower! It's actually very quiet when idling inside a tower PC. ON activity it is a little noisy but not bad...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 641,
+            "Storage capacity": 396,
+            "Value for money": 362,
+            "Ease of use": 277,
+            "Speed": 429,
+            "Compatibility": 386,
+            "Noise level": 385
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Mark C. Lowe",
@@ -8355,9 +8825,9 @@
             "Amazon Choice"
         ],
         "image": "../images/B08KTSWHZB.jpg",
-        "popularity": 56,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 48,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -8476,6 +8946,16 @@
                 "DOES NOT WORK WITH WINDOWS 11. THIS HARD DRIVE DOES NOT GET DISCOVERED WITH WINDOWS 11 AND THE DRIVERS ARE IMPOSSIBLE TO INSTALL AVOID FOR WINOWS."
             ]
         },
+        "customer-review-keywords-count": {
+            "Durability": 29,
+            "Storage capacity": 21,
+            "Backup": 16,
+            "Reliability": 97,
+            "Quality": 44,
+            "Speed": 21,
+            "Value for money": 16,
+            "Compatibility": 48
+        },
         "top_reviews": [
             {
                 "reviewer_name": "aleshia Keith",
@@ -8526,13 +9006,11 @@
                 "review_body": "Backup for photography and videos."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B0C9YLX21T.jpg",
-        "popularity": 16,
+        "popularity": 4,
         "freeShipping": true,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -8606,6 +9084,10 @@
                 "...They are also compact enough to carry around easily. These are reliable unlike many others."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 123,
+            "Reliability": 156
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Pickle Rick",
@@ -8657,10 +9139,11 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B01789QMUW.jpg",
-        "popularity": 49,
+        "popularity": 71,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -8775,6 +9258,15 @@
                 "I loved how easy to use this was and how quick. It saved all of my documents from my old computer (lots) in less than 9 minutes!"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 704,
+            "Value for money": 519,
+            "Ease of use": 499,
+            "Portability": 303,
+            "Storage capacity": 284,
+            "Compatibility": 320,
+            "Speed": 304
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jen McClard",
@@ -8813,13 +9305,11 @@
                 "review_body": "This external hard drive is very compact and lightweight, making it easy to carry around or keep in a laptop bag. Setup was simple — plug and play with no extra software needed.It works smoothly for basic storage, file backups, and transferring documents or media. The casing feels solid despite being slim, and it doesn’t get noticeably warm during use.A good option if you want straightforward, portable storage without unnecessary extras."
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B07BCP5L2B.jpg",
-        "popularity": 31,
+        "popularity": 49,
         "freeShipping": true,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -8945,6 +9435,16 @@
                 "These are not new drives and should be labeled as OEM USED. Do not buy these junk drives"
             ]
         },
+        "customer-review-keywords-count": {
+            "Performance": 63,
+            "Value for money": 46,
+            "Speed": 32,
+            "Reliability": 128,
+            "Noise level": 71,
+            "Durability": 21,
+            "Warranty": 20,
+            "Brand": 18
+        },
         "top_reviews": [
             {
                 "reviewer_name": "wag12",
@@ -8972,13 +9472,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B07KPL474H.jpg",
-        "popularity": 96,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 79,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -9030,6 +9529,7 @@
             "3.6 3.6 out of 5 stars"
         ],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer",
@@ -9069,13 +9569,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B0DJHLFF5J.jpg",
-        "popularity": 29,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 45,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -9183,6 +9682,14 @@
                 "Dead on Arrival - Did not work on multiple pcs. Drive wouldn't even show up under disk management. It also sees to have."
             ]
         },
+        "customer-review-keywords-count": {
+            "Value for money": 947,
+            "Storage capacity": 883,
+            "Ease of installation": 654,
+            "Speed": 771,
+            "Noise level": 645,
+            "Compatibility": 209
+        },
         "top_reviews": [
             {
                 "reviewer_name": "ILoveWritingReviews",
@@ -9215,9 +9722,12 @@
                 "review_body": "Good Bulk Storage Drive, But Not for Speed-Demanding TasksThe Seagate BarraCuda 4TB is a solid, budget-friendly option if you need a lot of space in a desktop PC. I’ve used several of these drives over the years, mainly for mass storage of media files, backups, and general data. At this price point, you get reliable capacity without breaking the bank.Installation is straightforward—it’s a standard 3.5\" SATA drive, so as long as your case has a bay and your PSU has a SATA power connector, you’re set. Seagate’s DiscWizard software also makes cloning an old drive onto this one relatively painless if you’re upgrading.Performance is what you’d expect from a 5400 RPM HDD: perfectly fine for general storage, but not ideal for heavy workloads like video editing, running games directly, or OS installs. You’ll notice slower load times compared to SSDs or even 7200 RPM drives. Still, with a large 256MB cache, it handles streaming media and bulk file transfers decently.Reliability has been good in my experience. I’ve had these run 24/7 in desktops and home servers for years without failure, though like any mechanical drive, they can be hit-or-miss—so pairing them with a backup strategy is important.Bottom line: A dependable, high-capacity storage drive at a fair price. Best suited for bulk storage, backups, and media libraries—not as a primary drive for speed-intensive tasks."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B07D9C7SQH.jpg",
-        "popularity": 7,
+        "popularity": 66,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -9322,6 +9832,14 @@
                 "Arrived dead. Not worth the effort"
             ]
         },
+        "customer-review-keywords-count": {
+            "Storage capacity": 13,
+            "Value for money": 10,
+            "Speed": 8,
+            "Reliability": 32,
+            "Noise level": 13,
+            "Data loss": 5
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Daniel Traynor",
@@ -9373,11 +9891,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B084QBB99H.jpg",
-        "popularity": 84,
-        "freeShipping": true,
+        "popularity": 18,
+        "freeShipping": false,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -9491,6 +10010,15 @@
                 "...The drive works very well and is very compact. Uses a older style USB data cable though haven't seen thoes in ages."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 22,
+            "Value for money": 20,
+            "Storage capacity": 11,
+            "Reliability": 27,
+            "Speed": 6,
+            "Durability": 5,
+            "Cable type": 6
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Juan A Morales",
@@ -9542,12 +10070,13 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B08MTDKSMN.jpg",
-        "popularity": 52,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 12,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -9675,6 +10204,16 @@
                 "4tb at a great value"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 64,
+            "Storage capacity": 22,
+            "Ease of use": 15,
+            "Reliability": 92,
+            "Durability": 43,
+            "Speed": 29,
+            "Connectivity": 25,
+            "Value for money": 22
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Dave Mason",
@@ -9727,8 +10266,8 @@
         ],
         "badges": [],
         "image": "../images/B01MSSJ32J.jpg",
-        "popularity": 36,
-        "freeShipping": true,
+        "popularity": 23,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -9854,6 +10393,16 @@
                 "...However, I am disappointed with the faulty connection and am concerned that I will lose data...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 209,
+            "Quality": 138,
+            "Rugged": 67,
+            "Speed": 53,
+            "Storage capacity": 52,
+            "Value for money": 49,
+            "Durability": 76,
+            "Cable quality": 48
+        },
         "top_reviews": [
             {
                 "reviewer_name": "JSavage",
@@ -9904,10 +10453,12 @@
                 "review_body": "I originally bought the LaCie hard drive because my MacBook was running out of storage. I rely heavily on my computer for online school as well as photography/filmmaking. Importing footage used to be a nightmare, and I was constantly deleting apps for space. My biggest worry was losing all of my essays, photographs, and short films, so I purchased the 1TB LaCie Rugged Mini. I've been using it for about 4 months now with absolutely no problems. Other than SD cards and limited space USB drives, this is my first real external storage device, and I couldn't be happier. It runs very smoothly, backs up my computer quickly, and has the space for all of my school work, imported footage, edited footage, and final projects. I've read reviews saying back ups were lost, but I have had no issues with crashing or loss of data. One of the main reasons I got the rugged mini was because I am a college student and I knew I would be carrying this around often. The size is no bigger than my iPhone, and I've noticed no damage from the few drops it has endured since purchase (about 5, 3 foot drops over the past 4 months). Another pro about this external hard drive is that it is compatible with MacOS (a feature I noticed other products didn't tend to have for some reason-mine is currently running on 10.12 Sierra). If I run out of storage again, this will be my go-to. Highly recommend. I'll post any updates if I encounter any problems down the line."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Best Seller"
+        ],
         "image": "../images/B0058VIWTM.jpg",
-        "popularity": 1,
-        "freeShipping": true,
+        "popularity": 15,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -10029,6 +10580,16 @@
                 "...The problem is every time I connect it to me either device it im disconnects and ask me to restart my device...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Compact size": 208,
+            "Speed": 208,
+            "Quality": 178,
+            "Value for money": 109,
+            "Storage capacity": 89,
+            "Ease of use": 53,
+            "Reliability": 294,
+            "Compatibility": 58
+        },
         "top_reviews": [
             {
                 "reviewer_name": "haptrail",
@@ -10079,10 +10640,13 @@
                 "review_body": "This portable SSD is definitely quick and convenient — the transfer speeds are solid, and the compact design makes it easy to carry around. It works well across different devices, and setup is basically plug‑and‑go. The build feels sturdy too, which is a nice bonus.The only reason I’m landing at three stars is that it’s not quite as seamless as I expected. The connection can be a little finicky at times, and the casing warms up more than I’d like during heavy use. It still gets the job done and offers good value, just with a few small quirks to keep in mind."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B0BGL4SHY8.jpg",
-        "popularity": 96,
-        "freeShipping": false,
+        "popularity": 19,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -10168,6 +10732,12 @@
                 "...this in April 2024 so it’s been over a year and a half and the drive is running well...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Storage capacity": 15,
+            "Value for money": 13,
+            "Speed": 8,
+            "Reliability": 16
+        },
         "top_reviews": [
             {
                 "reviewer_name": "bradley",
@@ -10222,8 +10792,8 @@
             "Best Seller"
         ],
         "image": "../images/B0CXD2R2CF.jpg",
-        "popularity": 69,
-        "freeShipping": false,
+        "popularity": 90,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -10335,6 +10905,15 @@
                 "Slim design and easy to use. Perfect for my heated jacket. Long battery life and cool with the flashlight feature."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 849,
+            "Size": 767,
+            "Functionality": 656,
+            "Portability": 633,
+            "Weight": 344,
+            "Convenience": 320,
+            "Battery life": 299
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Brian Wilkerson/Krystal Hinson",
@@ -10379,11 +10958,14 @@
                 "review_body": "We purchased two of these for a vacation to Japan. We were on the move all day, every day. These were a life saver! They charge quickly, have the cord easily accessible, connect perfectly and are adorable. I love the way the paw print lights up and you can see how much the battery is charged. The price is great, too. Any time we take trips, these go along with us. We have used them several times over the past 4 months and they are reliable and fantastic."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B0CB1FW5FC.jpg",
-        "popularity": 37,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 12,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -10506,6 +11088,16 @@
                 "This Anker power bank is awesome! Charges my phone super fast and lasts a long time. Compact, reliable, and perfect for travel or daily use...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 488,
+            "Reliability": 456,
+            "Portability": 270,
+            "Size": 203,
+            "Weight": 166,
+            "Power": 165,
+            "Charging speed": 657,
+            "Battery life": 170
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Kenneth",
@@ -10560,8 +11152,8 @@
             "Amazon Choice"
         ],
         "image": "../images/B0D5CLSMFB.jpg",
-        "popularity": 38,
-        "freeShipping": true,
+        "popularity": 20,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": true
     },
@@ -10674,6 +11266,15 @@
                 "Love this charger, light weight, and charges very fast. The portable itself charges within the hour, and it charges your devices in a timely manner"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 906,
+            "Reliability": 774,
+            "Portability": 591,
+            "Size": 500,
+            "Built-in cable": 364,
+            "Battery life": 325,
+            "Weight": 372
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Mark",
@@ -10707,12 +11308,13 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B0CZ9M6X8Q.jpg",
-        "popularity": 76,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 98,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -10829,6 +11431,16 @@
                 "It lasts a very, very long time. However, it is a bit heavy."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 53,
+            "Quality": 44,
+            "Functionality": 36,
+            "Battery life": 18,
+            "Portability": 17,
+            "Charging options": 14,
+            "Value for money": 12,
+            "Weight": 22
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Ruthy P",
@@ -10880,12 +11492,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0FRSRFFZR.jpg",
-        "popularity": 37,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 67,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -11006,6 +11619,16 @@
                 "...Can charge and recharge at the same time informative display. Lightweight and small for a battery, don't notice the weight in my every day carry bag..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 531,
+            "Quality": 464,
+            "Portability": 264,
+            "Charging capacity": 221,
+            "Built-in ports": 182,
+            "Power": 154,
+            "Reliability": 322,
+            "Weight": 205
+        },
         "top_reviews": [
             {
                 "reviewer_name": "sg",
@@ -11044,11 +11667,14 @@
                 "review_body": "I bought this on my trip to japan and the use of it during the month till now is amazing. the price isn't too bad for the quality you get as the charging ports are usb-c which is perfect and compatible for most devices. the size is pretty good as it fits in any bag nicely but the weight of it is definitely on the heavier side. the battery life for charging phones and such is good but laptops only one charge which is fine as I don't use it like that"
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice",
+            "Best Seller"
+        ],
         "image": "../images/B0DCBB2YTR.jpg",
-        "popularity": 78,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 44,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -11157,6 +11783,16 @@
                 "...in my purse, charged my phone multiple times per power up and seem very durable. I love that they have cords attached so I don't have to carry extra."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 267,
+            "Charging speed": 238,
+            "Reliability": 172,
+            "Value for money": 150,
+            "Built-in cords": 145,
+            "Portability": 138,
+            "Compact size": 76,
+            "Battery life": 73
+        },
         "top_reviews": [
             {
                 "reviewer_name": "S. M.",
@@ -11207,10 +11843,12 @@
                 "review_body": "Great value and super convenient. The built-in cables mean no extra cords to carry, and the battery lasts for multiple charges. Slim, lightweight, and perfect for travel. Charging speed is solid too. Definitely recommend! 👍"
             }
         ],
-        "badges": [],
+        "badges": [
+            "Best Seller"
+        ],
         "image": "../images/B0F9DQ68XW.jpg",
-        "popularity": 83,
-        "freeShipping": false,
+        "popularity": 63,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -11264,6 +11902,7 @@
             "4.8 4.8 out of 5 stars"
         ],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Evelin Grillo Rojas",
@@ -11314,13 +11953,11 @@
                 "review_body": "This is a well built powerful and affordable power pack. Will be using this as we travel with 2 phones, 2 iPads, and other device that may need charging along the way. Appreciate the built in cables that reduce the need to pack them as well. However, if you need a specific cord there are USB and USB-C options. Great power bank, looking forward to using!"
             }
         ],
-        "badges": [
-            "Amazon Choice"
-        ],
+        "badges": [],
         "image": "../images/B0FXB23ZNS.jpg",
-        "popularity": 58,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 56,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -11430,6 +12067,16 @@
                 "...It's a little on the heavy side, but with the fast charging it's definitely worth it. Highly recommend this product...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Battery life": 53,
+            "Charging speed": 46,
+            "Reliability": 37,
+            "Charging options": 29,
+            "Portability": 19,
+            "Convenience": 16,
+            "Compact size": 8,
+            "Weight": 9
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Lindsey Thacker",
@@ -11480,13 +12127,11 @@
                 "review_body": "It doesn't hold a charge long. It is sorta heavy. Kinda bulky."
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0FNRG3P7P.jpg",
-        "popularity": 72,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 95,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": true
     },
     {
@@ -11531,6 +12176,7 @@
             "New"
         ],
         "customer-review-keywords-details": {},
+        "customer-review-keywords-count": {},
         "top_reviews": [
             {
                 "reviewer_name": "Hemangi Kapadia",
@@ -11582,12 +12228,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0FCYFS3LW.jpg",
-        "popularity": 43,
+        "popularity": 83,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -11700,6 +12347,16 @@
                 "It might be a bit bulky/heavy but it's for a good reason, it holds quite a significant amount of charge (20000mAh)...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 51,
+            "Reliability": 39,
+            "Power": 29,
+            "Value for money": 22,
+            "Build quality": 19,
+            "Built-in cable": 15,
+            "Size": 13,
+            "Weight": 19
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Solid choice",
@@ -11751,12 +12408,13 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Amazon Choice",
+            "Best Seller"
         ],
         "image": "../images/B0DSPVDYQ9.jpg",
         "popularity": 67,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -11878,6 +12536,16 @@
                 "...It charges my devices very fast. it's not too heavy if you plan to carry it in a back pack or brief case...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 384,
+            "Quality": 270,
+            "Reliability": 223,
+            "Usb-c port": 142,
+            "Portability": 126,
+            "Charging capability": 114,
+            "Size": 104,
+            "Weight": 125
+        },
         "top_reviews": [
             {
                 "reviewer_name": "mark",
@@ -11923,12 +12591,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B0CXDXP8VR.jpg",
-        "popularity": 98,
-        "freeShipping": false,
-        "fastDelivery": true,
+        "popularity": 48,
+        "freeShipping": true,
+        "fastDelivery": false,
         "carbonFriendly": true
     },
     {
@@ -12038,6 +12706,15 @@
                 "...It as saved me so many times. Holds a charge Does not get hot Love the size I can plug in my phone and carry both in one hand Highly recommend"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 972,
+            "Portability": 752,
+            "Built-in cords": 583,
+            "Convenience": 547,
+            "Charging capability": 468,
+            "Reliability": 975,
+            "Battery life": 544
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Su",
@@ -12088,13 +12765,10 @@
                 "review_body": "Just received it and tried it out today. Love it. Slim, light weight but feels sturdy and charges reasonably fast. I tested it out with my Samsung S23 phone and it charged similar to my home chargers. I'm happy with it and esp the price. Thinking of ordering another one for extra backup."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0BY2NZK9Y.jpg",
-        "popularity": 81,
-        "freeShipping": true,
+        "popularity": 26,
+        "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": true
     },
@@ -12218,6 +12892,16 @@
                 "Stays cool! Doesn’t overheat! Wow!!! ❄️"
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 345,
+            "Quality": 329,
+            "Portability": 156,
+            "Magnetic connection": 122,
+            "Charging speed": 448,
+            "Weight": 150,
+            "Slim design": 128,
+            "Heat": 189
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Garrett",
@@ -12262,14 +12946,11 @@
                 "review_body": "Update : 3/09/24 please note this update 5,000 slim Qi2 which not Qi2 , This 4th purchase slim 5,000 apple store, love lightness thinness but probably worst magsage even worst 622 first magsafe Anker. First not Qi2 if thinking buying for fast 15 wats even 20wat plugged in not happen most get 1.6 wats tested 30 times., If think keep in pocket that not possbility unless want burn leg extremely hot , battery app says slow charging mahsafe and plugged in . Magnets are very strong compare first Qi2 Led version from Anker but for me battery bank useless , my opinion buy 10,000 gets hot charges fast specially plug in . If looking lighter version there's carbon fiber works well other brand which I use .I hope Anker updates 5,000 surprising false advertisement on box Qi2 clearly not , I even spoke to YouTube reviewer he agrees with me and one biggist Anker fans. I hate bashing Anker because nicest magsafe on market but can't recommend 5,000 go with 10,000. I'm sure Anker working on new magsafe maybe between both magsafes make smaller version of 10,000 that works.Update: 02/09/25 I did received replacement 10,000 slim working.much better still gets hot, I did get other brand.last week which lighter , Faster and doesn't get as hot so decided return original and replacement. I do think replacement working 100% better origional. I do think good product , This overpriced how heffy it is and competition $25 cheaper.Update:1/29/25 bought my 3rd 5k I'm Qi2 FYI this confirms 5k not Qi2 charges 6% 3 hours get extremely extremely oven hot no battery bank shouldn't get hot magsafe or plugged in gets extremely hot . I am returning 3rd 5k back apple today . Please note even plugged in USB c not 20w took 10% 2 hours and 17 min charge . I Ioved size battery bank thats why gave 3 tries . My recommendation get 10k or way I went bought Torras 5k superslimn which charges fast without being QI 2 gets warm but nothing crazy.Update 1/23:25 at present time can't recommend 10,000 slim stovetop hotness within 4 minutes there are similar products $20 cheaper only gets warm which have , I am sending mine back Anker after talking customer care .Update 01/21/25 After buying 2nd slim 5,000 from apple and friend also bought confirms that 5,000 slim not Qi2 in 2 hours it only charged 4% and 10,000 30 min minutes get 15% which great but gets extremely hot, I know 5,000 super slim not charge iphone unless plug in cable.. Anker told me return 5,000's to apple and Anker do replacement for 10'000. Honesy wanted keep 2nd 5,000 I'm added picture comparing slimest definitely in.market but doesn't do.anything except look nice so recommend 10,000. Also on my iphone and friend shows 5,000 regular charging not Qi2 slow charger, surprised Anker/apple releashed 5,000.update 01/19/25 overheating within 3 minutes both 10,000 and 5,000, My opinion if buy either one o for 10,000 charged 90% faster , 5,000 charges 1% in 50 minutes . My 5,000 going back apple this week thinnest battery bank on market but there thin battery banks that much faster.Update: 01/17/25 10,000 slim well made strong magnets but heavy in pocket. I also received 5,000 slim from apple extremely slim amazing but has lot issues only charges 1% in 19 minutes and gets extremely hot there no way keep in pocket too hot. It's definitely thinnest on market it seems all Qi2 5,000 very slow and heat up crazy with few minutes .well made strong magnets , Charges fast first 10 minutes then iphones High temperature mode goes on , have remove magesafe 10 minutes it charges slowly . 10,000 well made but heavy keep in pocketToday received my anker slim and mean slim probably slimmest on Market . After 30 minutes 5,000 does get warm. But seeds same.as 10,000 . If need magsafe keep pocket try find 5,000 only buy apple.com or if get lucky apple store it's better option 10,000 less heat . probably 5,000 only get 50% better in pocket and comes with apple cable not cheap rubberlyike 10,000. For me 10,000 slim gets too hot and return it have original Anker Qi2 much weaker magnets but works and use 5,000 went out . I did take pics all 3 products . I would say if like apple magsafe buy 5,000 Qi2 gets warmer apple version . did partnership on 5,000 version only buy at apple. I have few magdafes from Anker , 5,000 esr stovetop like 10,000 slim , I also have 10,000 small company with Qi2 which faster only 39 . The positive on Anker 10,000 great magnets compare original always fell off, Burns up after 12 minutes that's con for me and well made heavy carry pocket. I will say this if have money get 5,000 slim and other good Anker product not Qi2 but has built in USB c works decent zolo 10,000."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0D7DKJ75M.jpg",
-        "popularity": 32,
+        "popularity": 44,
         "freeShipping": true,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -12386,6 +13067,16 @@
                 "...It’s not too bulky. I like it."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 31,
+            "Quality": 23,
+            "Portability": 21,
+            "Charging options": 19,
+            "Performance": 19,
+            "Built-in cable": 12,
+            "Compact size": 11,
+            "Weight": 9
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jennifer Marlatt",
@@ -12437,12 +13128,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0F3P717J2.jpg",
-        "popularity": 66,
+        "popularity": 89,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -12563,6 +13255,16 @@
                 "It is worth it...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 116,
+            "Quality": 107,
+            "Reliability": 50,
+            "Power": 32,
+            "Portability": 29,
+            "Charging ports": 27,
+            "Build quality": 23,
+            "Value for money": 34
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jessica",
@@ -12613,13 +13315,10 @@
                 "review_body": "Product performance is excellent. Fast charging works as advertised. Easy to operate. However it only came with 1 USB C cord and no charging adapter was included [which was not clearly indicated until I searched the specs again]. So you either get their power adapter or use a different USB-C charging adapter."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0F66LNB8D.jpg",
-        "popularity": 55,
-        "freeShipping": false,
+        "popularity": 24,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": true
     },
@@ -12704,6 +13403,13 @@
                 "Cable stopped working on first use"
             ]
         },
+        "customer-review-keywords-count": {
+            "Portability": 8,
+            "Charging capacity": 7,
+            "Compact size": 7,
+            "Built-in cable": 6,
+            "Reliability": 5
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Darryl W",
@@ -12755,12 +13461,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0G78F4XG4.jpg",
-        "popularity": 74,
+        "popularity": 67,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": false
     },
     {
@@ -12876,6 +13583,16 @@
                 "...Worried a little about the life of the cords since attached and a little heavy, but manageable"
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 100,
+            "Quality": 84,
+            "Reliability": 66,
+            "Portability": 38,
+            "Built-in cords": 37,
+            "Battery life": 27,
+            "Compact size": 21,
+            "Weight": 31
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Grammar Police",
@@ -12930,9 +13647,9 @@
             "Best Seller"
         ],
         "image": "../images/B0F9KZR2BB.jpg",
-        "popularity": 61,
+        "popularity": 85,
         "freeShipping": false,
-        "fastDelivery": true,
+        "fastDelivery": false,
         "carbonFriendly": true
     },
     {
@@ -13033,6 +13750,14 @@
                 "...It's probably the most versatile charger at this price range with cables pre-installed, and gives you the option to plug your own USB-A or C cables..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 16,
+            "Battery quality": 11,
+            "Cord options": 11,
+            "Portability": 7,
+            "Performance": 6,
+            "Value for money": 5
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Shannon K Robinson",
@@ -13084,12 +13809,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
             "Best Seller",
             "Top Rated"
         ],
         "image": "../images/B0G3J6MRTZ.jpg",
-        "popularity": 45,
+        "popularity": 68,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": false
@@ -13208,6 +13932,16 @@
                 "Pretty small and convenient, but this thing holds VERY small battery power...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Performance": 16,
+            "Quality": 15,
+            "Value for money": 7,
+            "Ease of use": 5,
+            "Portability": 5,
+            "Slim design": 5,
+            "Charging speed": 33,
+            "Compact size": 5
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jared Shepherd",
@@ -13258,11 +13992,9 @@
                 "review_body": "It charges pretty quickly. It's lightweight, easy to use. The cord to charge phone was smaller than I anticipated. Functionality was easy but when you charge your device, the portable itself battery drains quickly. For the price, it was ok."
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0FHHYS8CT.jpg",
-        "popularity": 28,
+        "popularity": 14,
         "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
@@ -13381,6 +14113,16 @@
                 "heavy to carry"
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 19,
+            "Quality": 16,
+            "Portability": 13,
+            "Battery life": 11,
+            "Functionality": 11,
+            "Charging options": 7,
+            "Ease of use": 6,
+            "Weight": 7
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Rachel Powers",
@@ -13432,13 +14174,12 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B0FW4RD4B8.jpg",
-        "popularity": 81,
+        "popularity": 94,
         "freeShipping": true,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -13562,6 +14303,16 @@
                 "Fast charging, long lasting, and versatile. Must have in your car, backpack, purse, suitcase, whatever. It’s a tech essential!"
             ]
         },
+        "customer-review-keywords-count": {
+            "Battery life": 721,
+            "Portability": 442,
+            "Cords": 273,
+            "Charging capacity": 250,
+            "Convenience": 245,
+            "Charging speed": 882,
+            "Reliability": 656,
+            "Durability": 263
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Bridget",
@@ -13612,14 +14363,11 @@
                 "review_body": "It charges my iPhone 3 times before the pack dies. The chords it comes with is super duper convenient!I will say that it takes about 8 hours to fully charge from dead, so its a pretty slow charging time on the pack itself which is why it is not 5 stars."
             }
         ],
-        "badges": [
-            "Amazon Choice",
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0BL7PN2ZJ.jpg",
-        "popularity": 56,
+        "popularity": 17,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -13743,6 +14491,16 @@
                 "...This is just a waste of money. No value, for a new item? Never used! It is way past my return window, I would have return it!..."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 349,
+            "Charging capability": 295,
+            "Size": 283,
+            "Portability": 257,
+            "Weight": 161,
+            "Reliability": 761,
+            "Charging": 628,
+            "Value for money": 224
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Tony Capiche",
@@ -13782,12 +14540,13 @@
             }
         ],
         "badges": [
+            "Amazon Choice",
             "Best Seller"
         ],
         "image": "../images/B08G1KB88B.jpg",
-        "popularity": 24,
+        "popularity": 83,
         "freeShipping": false,
-        "fastDelivery": false,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -13902,6 +14661,16 @@
                 "...Gets my Iphone from 0-100 in less than an hour. Great battery life. A bit heavy but expected from this quality of product"
             ]
         },
+        "customer-review-keywords-count": {
+            "Reliability": 343,
+            "Quality": 297,
+            "Size": 208,
+            "Portability": 185,
+            "Charging capacity": 136,
+            "Power": 116,
+            "Charging speed": 534,
+            "Weight": 128
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Orangepulp",
@@ -13946,11 +14715,9 @@
                 "review_body": "Charges a lot of things before it runs out, takes a while to recharge but nothing abnormal. It does seem to charge as a fast charger, so I wouldn't use it every time because that's not good for your battery. It's got some weight to it, but it will fit in your purse if it's at least a medium sized purse. Don't leave it in your car, I feel like that's something everybody should know. Just don't ever leave these things in your car."
             }
         ],
-        "badges": [
-            "Best Seller"
-        ],
+        "badges": [],
         "image": "../images/B0DB86W481.jpg",
-        "popularity": 82,
+        "popularity": 69,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": true
@@ -14067,6 +14834,16 @@
                 "This is a big charger. It is heavy. But it holds a charge for a long time."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 103,
+            "Quality": 78,
+            "Size": 71,
+            "Reliability": 61,
+            "Battery capacity": 38,
+            "Portability": 37,
+            "Battery life": 31,
+            "Weight": 38
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Loosearrow",
@@ -14121,7 +14898,7 @@
             "Best Seller"
         ],
         "image": "../images/B0DCZ56QNL.jpg",
-        "popularity": 99,
+        "popularity": 56,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": true
@@ -14225,6 +15002,14 @@
                 "...I used the Battery pack to charge my phone from 10%. The battery pack died and only charged my phone to 62%. Not something I can use when traveling."
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 732,
+            "Portability": 495,
+            "Size": 371,
+            "Weight": 308,
+            "Reliability": 850,
+            "Battery life": 328
+        },
         "top_reviews": [
             {
                 "reviewer_name": "S. Moore",
@@ -14275,11 +15060,13 @@
                 "review_body": "This battery has honestly changed the way I travel. It only charges my battery up to 70% but for me that’s more than enough. The slim design makes it easy to carry to the point I don’t notice I have it in my pocket. I’m giving it 4 stars only because the battery does get hot but besides that I like it"
             }
         ],
-        "badges": [],
+        "badges": [
+            "Best Seller"
+        ],
         "image": "../images/B099284SRR.jpg",
-        "popularity": 30,
-        "freeShipping": true,
-        "fastDelivery": true,
+        "popularity": 5,
+        "freeShipping": false,
+        "fastDelivery": false,
         "carbonFriendly": true
     },
     {
@@ -14349,6 +15136,11 @@
                 "...It’s not too heavy. I can fit it in my purse with ease. I would recommend this charger."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 10,
+            "Battery life": 9,
+            "Portability": 7
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amy Flores",
@@ -14400,13 +15192,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice",
-            "Best Seller",
             "Top Rated"
         ],
         "image": "../images/B0GFK8N98D.jpg",
-        "popularity": 4,
-        "freeShipping": false,
+        "popularity": 73,
+        "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": false
     },
@@ -14524,6 +15314,16 @@
                 "...Cons: Premium price (though the performance delivers the ROI)."
             ]
         },
+        "customer-review-keywords-count": {
+            "Performance": 40,
+            "Charging speed": 26,
+            "Power capacity": 11,
+            "Port availability": 10,
+            "Portability": 9,
+            "Compact size": 8,
+            "Build quality": 6,
+            "Value for money": 8
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Grant",
@@ -14574,10 +15374,12 @@
                 "review_body": "I'll give it 5 stars it delivers and receives tha charge so quickly, i tested it with my gaming laptop cellphone and the anker charger 140w and it just performes so well it does more than what you need, because you can also connect to the battery system and see charts of volts amperage and power transfer either charging or delivering charge using an app that needs to be downloaded to the phone. I have a lenovo alegro 5 pro and a S22 ultra. Overall this battery banks is solid."
             }
         ],
-        "badges": [],
+        "badges": [
+            "Amazon Choice"
+        ],
         "image": "../images/B0F66NH2ZX.jpg",
-        "popularity": 71,
-        "freeShipping": false,
+        "popularity": 28,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": true
     },
@@ -14689,6 +15491,15 @@
                 "...It as saved me so many times. Holds a charge Does not get hot Love the size I can plug in my phone and carry both in one hand Highly recommend"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 972,
+            "Portability": 752,
+            "Built-in cords": 583,
+            "Convenience": 547,
+            "Charging capability": 468,
+            "Reliability": 975,
+            "Battery life": 544
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Su",
@@ -14744,7 +15555,7 @@
             "Best Seller"
         ],
         "image": "../images/B0CQR8TSD1.jpg",
-        "popularity": 20,
+        "popularity": 97,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": true
@@ -14864,6 +15675,16 @@
                 "Greta price. Simple to use. Gret power option when travelling. Ligth and good quality"
             ]
         },
+        "customer-review-keywords-count": {
+            "Functionality": 34,
+            "Charging speed": 32,
+            "Quality": 20,
+            "Portability": 16,
+            "Value for money": 16,
+            "Compact size": 10,
+            "Battery life": 13,
+            "Weight": 6
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Patty",
@@ -14918,9 +15739,9 @@
             "Best Seller"
         ],
         "image": "../images/B0FGDCY95C.jpg",
-        "popularity": 84,
-        "freeShipping": false,
-        "fastDelivery": false,
+        "popularity": 83,
+        "freeShipping": true,
+        "fastDelivery": true,
         "carbonFriendly": false
     },
     {
@@ -15026,6 +15847,15 @@
                 "...It as saved me so many times. Holds a charge Does not get hot Love the size I can plug in my phone and carry both in one hand Highly recommend"
             ]
         },
+        "customer-review-keywords-count": {
+            "Quality": 972,
+            "Portability": 752,
+            "Built-in cords": 583,
+            "Convenience": 547,
+            "Charging capability": 468,
+            "Reliability": 975,
+            "Battery life": 544
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Su",
@@ -15077,12 +15907,12 @@
             }
         ],
         "badges": [
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B0BY2PYK1Y.jpg",
-        "popularity": 27,
-        "freeShipping": true,
-        "fastDelivery": false,
+        "popularity": 91,
+        "freeShipping": false,
+        "fastDelivery": true,
         "carbonFriendly": true
     },
     {
@@ -15198,6 +16028,16 @@
                 "...portable charger is but it takes forever to charge my phone & overheats quickly. Only charges 20% per hour"
             ]
         },
+        "customer-review-keywords-count": {
+            "Battery life": 217,
+            "Slim design": 206,
+            "Reliability": 150,
+            "Size": 126,
+            "Portability": 102,
+            "Weight": 87,
+            "Charging speed": 314,
+            "Overheating": 159
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Amazon Customer",
@@ -15231,10 +16071,10 @@
             }
         ],
         "badges": [
-            "Best Seller"
+            "Amazon Choice"
         ],
         "image": "../images/B0F8HXYD46.jpg",
-        "popularity": 37,
+        "popularity": 26,
         "freeShipping": false,
         "fastDelivery": false,
         "carbonFriendly": true
@@ -15352,6 +16192,16 @@
                 "weight is heavy, as heavy as my laptop"
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 80,
+            "Quality": 43,
+            "Battery life": 23,
+            "Charging capability": 21,
+            "Display": 21,
+            "Size": 21,
+            "Reliability": 43,
+            "Weight": 23
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Jeff A.",
@@ -15397,11 +16247,11 @@
             }
         ],
         "badges": [
-            "Amazon Choice"
+            "Best Seller"
         ],
         "image": "../images/B0CXHM5RY2.jpg",
-        "popularity": 63,
-        "freeShipping": false,
+        "popularity": 34,
+        "freeShipping": true,
         "fastDelivery": true,
         "carbonFriendly": false
     },
@@ -15517,6 +16367,16 @@
                 "It is relatively small and lightweight, however its ‘20000’ mah capacity claim is somewhat misleading...."
             ]
         },
+        "customer-review-keywords-count": {
+            "Charging speed": 262,
+            "Quality": 181,
+            "Size": 155,
+            "Functionality": 136,
+            "Portability": 111,
+            "Value for money": 65,
+            "Battery life": 54,
+            "Weight": 129
+        },
         "top_reviews": [
             {
                 "reviewer_name": "Alyssa",
@@ -15569,7 +16429,7 @@
         ],
         "badges": [],
         "image": "../images/B0CB1CZWC1.jpg",
-        "popularity": 76,
+        "popularity": 26,
         "freeShipping": true,
         "fastDelivery": false,
         "carbonFriendly": true

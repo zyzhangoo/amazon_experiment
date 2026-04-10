@@ -94,6 +94,27 @@
     return out;
   }
 
+  function getReviewKeywordCountsMap(p) {
+    const raw = p ? (p["customer-review-keywords-count"] ?? p.customerReviewKeywordsCount) : null;
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+    return raw;
+  }
+
+  function getKeywordCountDisplay(p, keyword) {
+    const map = getReviewKeywordCountsMap(p);
+    const kw = String(keyword || "");
+    if (!kw) return null;
+    let val = map[kw];
+    if (val == null) {
+      const lower = kw.toLowerCase();
+      const key = Object.keys(map).find((k) => String(k).toLowerCase() === lower);
+      if (key != null) val = map[key];
+    }
+    const n = Number(val);
+    if (!Number.isFinite(n) || n < 0) return null;
+    return Math.floor(n);
+  }
+
   function renderCustomersSay(p) {
     if (!els.customersSaySection || !els.customersSayText) return;
     const summary = getAiGeneratedSummary(p);
@@ -159,7 +180,9 @@
       .map((k) => {
         const isActive =
           openKeywordDetail && k.toLowerCase() === String(openKeywordDetail).toLowerCase();
-        return `<button type="button" class="review-keyword-tag${isActive ? " is-active" : ""}" data-review-keyword="${window.escapeHtml(k)}" aria-pressed="${isActive ? "true" : "false"}">${window.escapeHtml(k)}</button>`;
+        const count = getKeywordCountDisplay(p, k);
+        const label = count == null ? k : `${k} (${count})`;
+        return `<button type="button" class="review-keyword-tag${isActive ? " is-active" : ""}" data-review-keyword="${window.escapeHtml(k)}" aria-pressed="${isActive ? "true" : "false"}"><span class="keyword-icon" aria-hidden="true">↗</span><span>${window.escapeHtml(label)}</span></button>`;
       })
       .join("");
   }

@@ -263,6 +263,9 @@
   font-size: 14px;
   color: var(--accent);
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   text-decoration: underline;
   text-decoration-color: rgba(0, 113, 133, 0.35);
   text-underline-offset: 2px;
@@ -276,6 +279,13 @@
 .review-keyword-tag.is-active {
   font-weight: 800;
   text-decoration-color: currentColor;
+}
+
+.keyword-icon {
+  color: #16a34a;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
 }
 
 .keyword-detail-box {
