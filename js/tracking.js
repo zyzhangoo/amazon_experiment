@@ -161,7 +161,8 @@
       btn.classList.contains("list-add-to-cart-btn") ||
       btn.classList.contains("category-filter-btn") ||
       btn.classList.contains("pagination-btn") ||
-      btn.classList.contains("product-see-more-btn")
+      btn.classList.contains("product-see-more-btn") ||
+      btn.classList.contains("review-keyword-tag")
     ) {
       return true;
     }
